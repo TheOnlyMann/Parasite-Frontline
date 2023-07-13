@@ -1,0 +1,21 @@
+{
+	title: "Your Base",
+	x: 4.0d,
+	y: 10.0d,
+	description: "how does that fit in!",
+	text: [
+		"You place it down to summon a mini-base of your own.",
+		"Use with caution, as the direction is always set-"
+	],
+	dependencies: [
+		"7b967d41"
+	],
+	tasks: [{
+		uid: "190a7dff",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:bdoll_frontlinebase"
+		}],
+		count: 23L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Human Resources",
+	x: -2.0d,
+	y: 12.0d,
+	description: "I assume this isn't actual humans",
+	text: [
+		"One of the requirements to make a T-Doll. That's it. "
+	],
+	dependencies: [
+		"eaa9fc8f"
+	],
+	tasks: [{
+		uid: "8014677c",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_hp"
+		}]
+	}]
+}

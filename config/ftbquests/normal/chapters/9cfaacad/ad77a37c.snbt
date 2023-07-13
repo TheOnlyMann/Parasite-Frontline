@@ -1,0 +1,22 @@
+{
+	title: "Light them on Fire",
+	x: 14.0d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "o flames cleanse thee",
+	text: [
+		"Parasites seem to be weak against fire, making their adaptation take a while longer."
+	],
+	dependencies: [
+		"676115f5"
+	],
+	tasks: [{
+		uid: "b674d44d",
+		type: "item",
+		items: [{
+			item: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

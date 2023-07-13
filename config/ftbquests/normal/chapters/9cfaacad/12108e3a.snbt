@@ -1,0 +1,29 @@
+{
+	title: "One shot, no kill",
+	x: 14.5d,
+	y: 1.5d,
+	shape: "diamond",
+	description: "is this working?",
+	text: [
+		"While not that powerful, and not having many charges, the electrified rods fired from the gun seem to deny the parasite's ability to adapt to incoming fire.",
+		"Might want to try and read to find more weapons like this.."
+	],
+	dependencies: [
+		"ad77a37c"
+	],
+	tasks: [{
+		uid: "c4d75be3",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:railgun",
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 3
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

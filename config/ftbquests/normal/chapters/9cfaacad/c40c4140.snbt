@@ -1,0 +1,15 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	shape: "diamond",
+	dependencies: [
+		"073e1bf0"
+	],
+	tasks: [{
+		uid: "f9546db6",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:charcoal_filter"
+		}]
+	}]
+}

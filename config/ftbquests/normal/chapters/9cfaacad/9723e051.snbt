@@ -1,0 +1,19 @@
+{
+	title: "Peat Mummy",
+	x: -14.0d,
+	y: -5.0d,
+	description: "Not a Gollum ripoff",
+	text: [
+		"Peat mummy, which spawns in marsh biomes, while normally slow, can let out a passionate scream and charge at you. They can be lured with a shimmerstone, tnat can be plucked out of a dead Peat Mummy."
+	],
+	tasks: [{
+		uid: "e9ad2d20",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:shimmer_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

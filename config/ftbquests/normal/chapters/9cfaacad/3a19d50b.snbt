@@ -1,0 +1,20 @@
+{
+	title: "Drone",
+	x: 6.0d,
+	y: 10.0d,
+	description: "bzzzt",
+	text: [
+		"If you make a drone base, it automatically-replaces itself into a random drone in the inventory! Fancy, isn't it?"
+	],
+	dependencies: [
+		"5b51992d",
+		"a1ac804f"
+	],
+	tasks: [{
+		uid: "df3d0720",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:item_drone"
+		}]
+	}]
+}

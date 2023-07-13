@@ -1,0 +1,119 @@
+{
+	title: "Terrarium",
+	x: 18.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	description: "The places you visited",
+	text: [
+		"Just as a souvenir, right?"
+	],
+	dependencies: [
+		"780be37c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "57096f64",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 4"
+		}]
+	},
+	{
+		uid: "8e06810b",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 7"
+		}]
+	},
+	{
+		uid: "b2751419",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 14"
+		}]
+	},
+	{
+		uid: "4635ba32",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium"
+		}]
+	},
+	{
+		uid: "bfde9e97",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 1"
+		}]
+	},
+	{
+		uid: "4a0cb92d",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 8"
+		}]
+	},
+	{
+		uid: "269db3aa",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 10"
+		}]
+	},
+	{
+		uid: "e67c5d1e",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 2"
+		}]
+	},
+	{
+		uid: "c9a0de7c",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 3"
+		}]
+	},
+	{
+		uid: "1f3cbc54",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 6"
+		}]
+	},
+	{
+		uid: "49f43b80",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 11"
+		}]
+	},
+	{
+		uid: "c15eb60e",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 12"
+		}]
+	},
+	{
+		uid: "6906f100",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 13"
+		}]
+	},
+	{
+		uid: "5dde8469",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 5"
+		}]
+	},
+	{
+		uid: "519af560",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 9"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 10.5d,
+	y: 4.5d,
+	shape: "diamond",
+	description: "temporal skip the night",
+	text: [
+		"Without altering spawnpoints, you can sleep in bed to stay of the night."
+	],
+	dependencies: [
+		"073e1bf0"
+	],
+	tasks: [{
+		uid: "87f59285",
+		type: "item",
+		items: [{
+			item: "comforts:sleeping_bag 1 14"
+		}]
+	}]
+}

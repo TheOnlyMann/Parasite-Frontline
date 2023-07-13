@@ -1,0 +1,20 @@
+{
+	title: "Breaking Up",
+	x: -6.0d,
+	y: 12.0d,
+	description: "bad",
+	text: [
+		"If you don't have enough resources to keep the dolls, or you don't want them, you can dismantle the dolls.",
+		"Right click on the doll you want, and she will be removed from this world, and give her gun and her core to you."
+	],
+	dependencies: [
+		"f0c5b0b5"
+	],
+	tasks: [{
+		uid: "9bd3a6da",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_doll_dismantling"
+		}]
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "Five-seveN",
+	x: 13.5d,
+	y: 2.5d,
+	shape: "diamond",
+	description: "Armor Piercing",
+	text: [
+		"The rounds are made of tungsten, thus goes through the carapace of most parasites- seems like this disrupts the parasites from getting their cells back together."
+	],
+	dependencies: [
+		"ad77a37c"
+	],
+	tasks: [{
+		uid: "32b9fbe9",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollgun_fn57"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2003318c",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollgun_gr_mp7"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "13c65981",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollgun_p90"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6dfdd532",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollgun_cms"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2b3af630",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollgun_ar57"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

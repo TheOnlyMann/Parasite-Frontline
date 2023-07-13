@@ -1,0 +1,39 @@
+{
+	title: "Underbarrel Attachment",
+	x: 2.0d,
+	y: 18.0d,
+	text: [
+		"Some guns too can be attached to other guns as well."
+	],
+	dependencies: [
+		"c2e074cf"
+	],
+	tasks: [{
+		uid: "9b05db85",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_grip"
+		}]
+	},
+	{
+		uid: "9c49e175",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_gripod"
+		}]
+	},
+	{
+		uid: "e7e9a19b",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bipod"
+		}]
+	},
+	{
+		uid: "1dbfc23f",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_anglegrip"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Getting Started",
+	x: 0.0d,
+	y: 6.0d,
+	shape: "rsquare",
+	description: "Tactical Doll system",
+	text: [
+		"From the orbit you have been dropped to a small native village, where you can gather resources.",
+		"Management was also nice enough to drop some supplies from orbit. ",
+		"It should be looking like a small upside-down rocket near the ground. ",
+		"It will be marked yellow if you're near it and behind cover, so you can't miss it.",
+		"Pry it open to get some starting gears."
+	],
+	dependencies: [
+		"0d513f2f"
+	],
+	tasks: [{
+		uid: "89ccec53",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_pad"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

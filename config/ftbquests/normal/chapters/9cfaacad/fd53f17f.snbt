@@ -1,0 +1,19 @@
+{
+	title: "Borrowed Time",
+	x: 8.0d,
+	y: -6.0d,
+	description: "quite literally.",
+	text: [
+		"You can use this to partially mitigate the time limit in the nether."
+	],
+	dependencies: [
+		"fc68671f"
+	],
+	tasks: [{
+		uid: "b647c925",
+		type: "item",
+		items: [{
+			item: "timeisup:timer_anchor"
+		}]
+	}]
+}

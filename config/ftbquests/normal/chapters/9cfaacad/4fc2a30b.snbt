@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: 6.5d,
+	shape: "diamond",
+	dependencies: [
+		"235e9b18"
+	],
+	tasks: [{
+		uid: "66747861",
+		type: "item",
+		items: [{
+			id: "chisel:chisel_hitech",
+			tag: {
+				chiseldata: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

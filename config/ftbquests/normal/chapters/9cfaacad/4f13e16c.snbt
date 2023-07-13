@@ -1,0 +1,85 @@
+{
+	title: "Kitchen Utensils",
+	x: 10.0d,
+	y: 6.5d,
+	shape: "diamond",
+	description: "why is there so many",
+	text: [
+		""
+	],
+	dependencies: [
+		"5f3da091"
+	],
+	tasks: [{
+		uid: "85d8ba7e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:juiceritem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9c205e19",
+		type: "item",
+		items: [{
+			item: "harvestcraft:potitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fd1b89ac",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cuttingboarditem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "afc86a6f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:skilletitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "561075fb",
+		type: "item",
+		items: [{
+			item: "harvestcraft:saucepanitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f6966c5",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bakewareitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7baf714f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mortarandpestleitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2e3beca4",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mixingbowlitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

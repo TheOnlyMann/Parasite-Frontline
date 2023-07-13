@@ -1,0 +1,15 @@
+{
+	x: 7.5d,
+	y: 6.0d,
+	shape: "diamond",
+	dependencies: [
+		"ae908f7a"
+	],
+	tasks: [{
+		uid: "fccc6bfb",
+		type: "item",
+		items: [{
+			item: "chisel:auto_chisel"
+		}]
+	}]
+}

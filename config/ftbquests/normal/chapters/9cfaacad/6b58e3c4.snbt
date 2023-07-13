@@ -1,0 +1,19 @@
+{
+	title: "What is this place?!",
+	x: -6.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "Welcome to vietnam",
+	text: [
+		"The betweenlands- while not as tainted as the Nether you probably visited, it's gonna be hard to traverse this place either way."
+	],
+	dependencies: [
+		"ab04502a"
+	],
+	tasks: [{
+		uid: "a639fecb",
+		type: "dimension",
+		icon: "thebetweenlands:swamp_grass",
+		dim: 20
+	}]
+}

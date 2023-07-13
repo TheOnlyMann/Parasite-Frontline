@@ -1,0 +1,19 @@
+{
+	title: "Starting point",
+	x: 6.0d,
+	y: 0.0d,
+	shape: "circle",
+	text: [
+		"Industrialization has to start somewhere, and where it starts is you mining iron."
+	],
+	dependencies: [
+		"0d513f2f"
+	],
+	tasks: [{
+		uid: "f67fa15d",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

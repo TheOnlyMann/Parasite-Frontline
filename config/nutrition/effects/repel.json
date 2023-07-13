@@ -1,0 +1,12 @@
+{
+	"name": "repel",
+	"potion": "srparasites:repel",
+	"amplifier": 0,
+	"minimum": 40,
+	"maximum": 60,
+	"detect": "average",
+	"nutrients": [
+		"fruit"
+	],
+	"enabled": true
+}

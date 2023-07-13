@@ -1,0 +1,26 @@
+{
+	x: 8.5d,
+	y: 3.5d,
+	shape: "diamond",
+	description: "simpler times",
+	text: [
+		"Can also cook stuff with the campfire spit."
+	],
+	dependencies: [
+		"6342da88"
+	],
+	tasks: [{
+		uid: "320ca4c1",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:campfire"
+		}]
+	},
+	{
+		uid: "102d758f",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:spit"
+		}]
+	}]
+}

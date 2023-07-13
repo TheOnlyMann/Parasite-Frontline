@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 14.0d,
+	description: "Buy and Sell",
+	text: [
+		"Simply a easy way to sell some of the loot you find to gain some cool stuff. Don't expect much, upper management isn't that generous."
+	],
+	dependencies: [
+		"a1ac804f"
+	],
+	tasks: [{
+		uid: "f29748ea",
+		type: "item",
+		items: [{
+			item: "adminshop:shop"
+		}]
+	}]
+}

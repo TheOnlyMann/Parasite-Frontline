@@ -1,0 +1,34 @@
+{
+	title: "Heavy Weapons T-Doll",
+	x: -6.0d,
+	y: 15.0d,
+	description: "Firepower!",
+	text: [
+		"These 3 girl group can only shoot when they are deployed (i.e. on \"Wait!\"), but their firepower is immense as they use explosive weaponry. ",
+		"Take good care of them, commander."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b967d41"
+	],
+	dependency_requirement: "one_completed",
+	optional: true,
+	tasks: [{
+		uid: "4ab1aba7",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_ags30"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c3a64033",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_at4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

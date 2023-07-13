@@ -1,0 +1,19 @@
+{
+	title: "Rapid Contract",
+	x: -6.0d,
+	y: 8.0d,
+	description: "gotta go fast",
+	text: [
+		"This, when inserted to the crafter alongside the normal ticket, finishes the Doll crafting immediately."
+	],
+	dependencies: [
+		"f0c5b0b5"
+	],
+	tasks: [{
+		uid: "2ec87ba4",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_doll_rapidcontract"
+		}]
+	}]
+}

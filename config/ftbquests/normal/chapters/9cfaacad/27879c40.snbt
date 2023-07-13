@@ -1,0 +1,26 @@
+{
+	title: "Heater/Chiller",
+	x: 7.5d,
+	y: 3.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	dependencies: [
+		"4478796f"
+	],
+	tasks: [{
+		uid: "67c4256b",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:heater"
+		}]
+	},
+	{
+		uid: "b2ec831c",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:chiller"
+		}]
+	}]
+}

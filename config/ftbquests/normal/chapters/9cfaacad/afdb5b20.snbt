@@ -1,0 +1,19 @@
+{
+	title: "T-Doll restoration",
+	x: -4.0d,
+	y: 12.0d,
+	description: "welp, dr frank?",
+	text: [
+		"WIth a gun and the cores you have, you can re-make the core of a T-Doll to summon her once more."
+	],
+	dependencies: [
+		"9263650f"
+	],
+	tasks: [{
+		uid: "8d32a1e3",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:bdoll_doll_restoring_machine"
+		}]
+	}]
+}

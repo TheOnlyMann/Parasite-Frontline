@@ -1,0 +1,28 @@
+{
+	x: 9.5d,
+	y: 4.5d,
+	shape: "diamond",
+	description: "You sure you wanna rest?",
+	text: [
+		"Used to skip the day. You do you."
+	],
+	dependencies: [
+		"1055781a"
+	],
+	tasks: [{
+		uid: "86897ac3",
+		type: "item",
+		items: [{
+			item: "comforts:hammock"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8b676244",
+		type: "item",
+		items: [{
+			item: "comforts:rope"
+		}],
+		count: 2L
+	}]
+}

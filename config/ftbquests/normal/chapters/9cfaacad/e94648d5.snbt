@@ -1,0 +1,25 @@
+{
+	title: "Moss Bed",
+	x: -9.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "Anchorage",
+	text: [
+		"Doesn't look that comfy, but it is good."
+	],
+	tasks: [{
+		uid: "fae07353",
+		type: "interaction",
+		title: "Sleep on a Moss Bed",
+		icon: "thebetweenlands:moss_bed_item",
+		match_type: "block_id",
+		match: "thebetweenlands:moss_bed"
+	},
+	{
+		uid: "11c9aec3",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:moss_bed_item"
+		}]
+	}]
+}

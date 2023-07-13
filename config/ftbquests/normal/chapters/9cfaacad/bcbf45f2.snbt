@@ -1,0 +1,19 @@
+{
+	x: -13.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "Spark of life",
+	text: [
+		"With an life crystal, and a fuel to bind it, this machine can bring back stuff from the unliving."
+	],
+	dependencies: [
+		"714dd9c0"
+	],
+	tasks: [{
+		uid: "4d81513e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:animator"
+		}]
+	}]
+}

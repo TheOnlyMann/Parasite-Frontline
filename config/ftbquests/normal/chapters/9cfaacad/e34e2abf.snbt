@@ -1,0 +1,285 @@
+{
+	title: "Sub-Machinegun T-Doll",
+	x: -4.0d,
+	y: 18.0d,
+	description: "Close range denial",
+	text: [
+		"With small weaponry, they can easily dodge incoming fire and be an target for the others to counterattack more clearly.",
+		"Take good care of them, commander."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b967d41"
+	],
+	optional: true,
+	tasks: [{
+		uid: "342344a3",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m1928a1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1041625c",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_z62"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d3a8041",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_suomi"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "13214b8d",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_pp19"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dab314cb",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_ppsh41"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "20fff9a1",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_ump40"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ab388fed",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_sr3mp"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6623d813",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gr_mp5"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5fff75b7",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_type79"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5442c81c",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_t100"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "28e0ad38",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m10"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fd24bd99",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_mp40"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50634f70",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_idw"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "871364c8",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_vector"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6143c9d0",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_ump9"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d81a3c6e",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_tmp"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "41861ad9",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_mab38"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ffb2dc55",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_ro635"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a17ae6a3",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_vz61"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "29eae653",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_stenmk2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4fae0a49",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gr_g36c"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a79f02c",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_pps43"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cc6f8094",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_mat49"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b45d9f18",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_kpist_m45"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b2b3a75a",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gr_mp7"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2ccfc1b1",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_p90"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3671946b",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_cms"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4b768387",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_ar57"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b630fa00",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_ump45"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6cc96dc7",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_fmg9"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

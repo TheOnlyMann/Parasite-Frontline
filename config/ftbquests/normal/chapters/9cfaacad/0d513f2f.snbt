@@ -1,0 +1,17 @@
+{
+	title: "The World",
+	icon: "minecraft:grass",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "hello, world!",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2cbadf88",
+		type: "dimension",
+		icon: "minecraft:grass",
+		dim: 0
+	}]
+}

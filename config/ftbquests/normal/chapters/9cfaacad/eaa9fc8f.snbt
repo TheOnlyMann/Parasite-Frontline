@@ -1,0 +1,21 @@
+{
+	title: "T-Doll Crafter",
+	x: -2.0d,
+	y: 10.0d,
+	description: "Making your own",
+	text: [
+		"Well, if you got the T-Dolls running, you can also make more of them!",
+		"Just craft the Doll Crafter. Though- it requires some hefty amount of ingredients.",
+		"You can select what type of dolls you get by cycling on the right side of the GUI."
+	],
+	dependencies: [
+		"b54ac2b1"
+	],
+	tasks: [{
+		uid: "a9e3f955",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:bdoll_crafting"
+		}]
+	}]
+}

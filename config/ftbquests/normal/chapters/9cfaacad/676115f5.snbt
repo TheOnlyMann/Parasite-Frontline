@@ -1,0 +1,21 @@
+{
+	title: "Patient Zero",
+	x: 12.0d,
+	y: 4.0d,
+	description: "oh god what is that",
+	text: [
+		"Looks like you have encountered your first parasite(that might bite you!)"
+	],
+	dependencies: [
+		"62941cc5"
+	],
+	tasks: [{
+		uid: "3abc9ede",
+		type: "observation",
+		title: "Encounter a Rupter",
+		icon: "srparasites:itemmobspawner_mudo",
+		match_type: "entity_id",
+		match: "srparasites:rupter",
+		timer: 0L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Customizable Vehicles",
+	disable_toast: true,
+	x: 6.0d,
+	y: 18.0d,
+	shape: "pentagon",
+	description: "Big boys",
+	text: [
+		"vehicles with weapons on them can be modified to put other guns on them."
+	],
+	dependencies: [
+		"dda394af"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "1525116c",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:ve_apc"
+		}]
+	},
+	{
+		uid: "27ddb058",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:ve_ifv"
+		}]
+	},
+	{
+		uid: "67b8ff2d",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:ve_heli"
+		}]
+	}]
+}

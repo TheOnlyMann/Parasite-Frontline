@@ -1,0 +1,17 @@
+{
+	x: -9.0d,
+	y: -5.0d,
+	description: "egg.",
+	text: [
+		"Mire Snails can be bred with Sap Spit or Sludge Balls. The egg can be picked up and cooked, even."
+	],
+	tasks: [{
+		uid: "f20d46a7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mire_snail_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Rubber Bucket",
+	x: -10.0d,
+	y: 1.0d,
+	description: "Extracting Rubber",
+	text: [
+		"Right click the empty buckets on a Rubber Tree, the small one.",
+		"Once it harvests bucketfull, you take them and put them in a furnace.",
+		"Weedwood is 1 time use, Syrmorite is for multiple use."
+	],
+	tasks: [{
+		uid: "bd43d633",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:bl_bucket_rubber",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fb020333",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:bl_bucket_rubber",
+			Damage: 1s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

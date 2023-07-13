@@ -1,0 +1,22 @@
+{
+	title: "AMMUNITION!",
+	x: 0.0d,
+	y: 12.0d,
+	description: "what is this, exactly?",
+	text: [
+		"Some packaged ammo, to get the new doll you want!",
+		"You can also use it to duplicate the actual ammunition you have."
+	],
+	dependencies: [
+		"eaa9fc8f",
+		"758902d6"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "8d3c4ee0",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_bullet"
+		}]
+	}]
+}

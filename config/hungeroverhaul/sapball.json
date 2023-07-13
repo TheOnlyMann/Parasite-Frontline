@@ -1,0 +1,10 @@
+{
+    "foods": [
+        {
+            "name": "thebetweenlands:sap_ball",
+            "meta": 0,
+            "hunger": 0,
+            "saturationModifier": 0
+        }
+    ]
+}

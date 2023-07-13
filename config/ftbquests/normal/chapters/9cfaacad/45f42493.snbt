@@ -1,0 +1,19 @@
+{
+	title: "Is this the deepest",
+	x: 8.0d,
+	y: -2.0d,
+	shape: "hexagon",
+	description: "my lungs! It BURNS!",
+	text: [
+		"With how toxic the Air is down here, you cannot stay in here for long. The display will tell you how much time is left."
+	],
+	dependencies: [
+		"073e1bf0"
+	],
+	tasks: [{
+		uid: "a7017fc2",
+		type: "dimension",
+		icon: "biomesoplenty:grass 1 6",
+		dim: -1
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Total Gear",
+	x: -1.5d,
+	y: 18.0d,
+	shape: "hexagon",
+	description: "final tier for your dolls",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"faddbe0a"
+	],
+	tasks: [{
+		uid: "da9365cf",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bodyarmor3"
+		}]
+	},
+	{
+		uid: "837853e8",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_frame_x3"
+		}]
+	},
+	{
+		uid: "5404a6bd",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_frame_m3"
+		}]
+	}]
+}

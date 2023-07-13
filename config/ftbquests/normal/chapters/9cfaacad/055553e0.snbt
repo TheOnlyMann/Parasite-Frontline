@@ -1,0 +1,58 @@
+{
+	title: "Living Weapons",
+	x: 15.5d,
+	y: -1.5d,
+	shape: "diamond",
+	description: "uhh..",
+	text: [
+		"Alright, it hasn't eaten you. Yet."
+	],
+	dependencies: [
+		"6ac332a2"
+	],
+	tasks: [{
+		uid: "ca3fa317",
+		type: "item",
+		items: [{
+			item: "srparasites:weapon_scythe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b7d79601",
+		type: "item",
+		items: [{
+			item: "srparasites:weapon_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c0869f60",
+		type: "item",
+		items: [{
+			item: "srparasites:weapon_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "97b51f5c",
+		type: "item",
+		items: [{
+			item: "srparasites:weapon_cleaver"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0e0546cc",
+		type: "item",
+		items: [{
+			item: "srparasites:weapon_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

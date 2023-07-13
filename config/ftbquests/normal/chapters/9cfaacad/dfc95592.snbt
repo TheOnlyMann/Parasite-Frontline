@@ -1,0 +1,81 @@
+{
+	title: "Elite Enemy Weapons",
+	x: -3.5d,
+	y: 15.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9d5bb0b5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "bb069b19",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_ibc08sw",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				CockingTime: 0,
+				Cocking: 1b,
+				Recoiled: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e53043eb",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_ibc08sd",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				CAN_SD: 0b,
+				Recoiled: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fa4ff835",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_ibc13glg",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				am_light_kazu: 1,
+				"am_colorlevel  0": 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3a7c0cda",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_ibc14sw",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

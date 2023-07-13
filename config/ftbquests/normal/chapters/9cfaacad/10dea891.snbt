@@ -1,0 +1,114 @@
+{
+	title: "Shotgun T-Doll",
+	x: -6.0d,
+	y: 16.0d,
+	description: "Heavy Armor",
+	text: [
+		"Armed with shotguns, they have thick armor plates to make them a powerhouse at close ranges. ",
+		"Take good care of them, commander."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b967d41"
+	],
+	optional: true,
+	tasks: [{
+		uid: "469355d4",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m1014"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "739573a3",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_aa12"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0caa0e90",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_sat8"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "31b929c9",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_usas12"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ae08fb5a",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m1897"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "26a3509c",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_rmb93"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "32ffe033",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m590"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8df03e83",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_six12"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7c529482",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_am_ksg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "77eba116",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_spas12"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "91161d5b",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_dp12"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -11.0d,
+	y: -5.0d,
+	description: "Ghost..? Zoinks!",
+	text: [
+		"Wights are ghostly remnants,that roams around the betweenlands. When provoked, it will whail at you, but also has a chance to pocess a nearby mob, unleashing a flurry of magic projectile around the pocessed. Take em out quick, and you get a Wight Heart for your trouble. There are many uses for it, but mainly, for repairing Life Crystals."
+	],
+	tasks: [{
+		uid: "93309542",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:wight_heart"
+		}]
+	}]
+}

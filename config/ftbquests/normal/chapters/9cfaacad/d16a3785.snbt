@@ -1,0 +1,105 @@
+{
+	title: "Warning signs",
+	x: 18.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "and others too!",
+	text: [
+		"Maybe it's an good idea to set up warning signs."
+	],
+	dependencies: [
+		"8371307f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d81e647b",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_defense"
+		}]
+	},
+	{
+		uid: "053fd51e",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_caution"
+		}]
+	},
+	{
+		uid: "c6150f54",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_magneticfield"
+		}]
+	},
+	{
+		uid: "d8932a5a",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_danger"
+		}]
+	},
+	{
+		uid: "758e7be9",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_hotwire"
+		}]
+	},
+	{
+		uid: "aa4e7b41",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_firehazard"
+		}]
+	},
+	{
+		uid: "817251ed",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_laser"
+		}]
+	},
+	{
+		uid: "d62702bb",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_exit"
+		}]
+	},
+	{
+		uid: "d21596c9",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_magichazard"
+		}]
+	},
+	{
+		uid: "ce675e7d",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_radioactive"
+		}]
+	},
+	{
+		uid: "a0e53937",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_factoryarea"
+		}]
+	},
+	{
+		uid: "f7494566",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_frost"
+		}]
+	},
+	{
+		uid: "49b9a19d",
+		type: "item",
+		items: [{
+			item: "engineersdecor:sign_hotsurface"
+		}]
+	}]
+}

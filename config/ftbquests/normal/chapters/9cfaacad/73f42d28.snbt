@@ -1,0 +1,19 @@
+{
+	x: -12.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "Cleaning time",
+	text: [
+		"With Swamp Water and Sulfur, it cleans off the corrosion from your tools."
+	],
+	dependencies: [
+		"7be03bcb"
+	],
+	tasks: [{
+		uid: "9ab7f910",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:purifier"
+		}]
+	}]
+}

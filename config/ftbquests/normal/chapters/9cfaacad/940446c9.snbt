@@ -1,0 +1,19 @@
+{
+	title: "Moss and Octine",
+	x: -14.0d,
+	y: 2.0d,
+	description: "Ignition!",
+	text: [
+		"Using Octine Ingots on a moss creates a fire, but you need a way to make it continuously burn.."
+	],
+	dependencies: [
+		"25630ea5"
+	],
+	tasks: [{
+		uid: "4e243e74",
+		type: "advancement",
+		title: "Right click long enough with a Octine ingot on a Moss",
+		advancement: "thebetweenlands:survivalist/pyromaniac",
+		criterion: ""
+	}]
+}

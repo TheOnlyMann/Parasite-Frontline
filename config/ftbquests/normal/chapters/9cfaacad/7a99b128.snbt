@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "where it all starts",
+	text: [
+		"You need to build a sustainable production line for your weapons. This, while being quite crude, is a start."
+	],
+	dependencies: [
+		"073e1bf0"
+	],
+	tasks: [{
+		uid: "df517cf4",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}]
+}

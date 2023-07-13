@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: 2.5d,
+	shape: "diamond",
+	description: "definitely clean",
+	text: [
+		"Purified water bottle, opposed to drinking groundwater, doesnt make you thirsty."
+	],
+	dependencies: [
+		"c40c4140"
+	],
+	tasks: [{
+		uid: "f0273a65",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:purified_water_bottle"
+		}]
+	}]
+}

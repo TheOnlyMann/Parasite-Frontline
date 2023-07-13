@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: 8.0d,
+	description: "move! move! move!",
+	text: [
+		"Using this, you can command T-Dolls to TP to you, or take individual actions."
+	],
+	dependencies: [
+		"7b967d41"
+	],
+	tasks: [{
+		uid: "407dd0df",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:idoll_squad_cn",
+			tag: {
+				squadid: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

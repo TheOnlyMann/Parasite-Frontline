@@ -1,0 +1,21 @@
+{
+	title: "High Velocity Rounds",
+	x: -2.0d,
+	y: 16.5d,
+	shape: "diamond",
+	description: "for most guns.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"faddbe0a"
+	],
+	tasks: [{
+		uid: "9012e8bb",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bullet_hv3"
+		}]
+	}]
+}

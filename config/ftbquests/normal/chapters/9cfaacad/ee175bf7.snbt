@@ -1,0 +1,71 @@
+{
+	title: "Data Collection: Crude Parasites",
+	x: 15.5d,
+	y: -3.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"62941cc5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "08524752",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_cruxa",
+		entity: "srparasites:crux",
+		value: 1L
+	},
+	{
+		uid: "57376aea",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_heed",
+		entity: "srparasites:heed",
+		value: 1L
+	},
+	{
+		uid: "ff328e35",
+		type: "kill",
+		title: "Kill: 1x Small Incomplete Form",
+		icon: "srparasites:itemmobspawner_inhoos",
+		entity: "srparasites:incompleteform_small",
+		value: 1L
+	},
+	{
+		uid: "b955595f",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_inhoom",
+		entity: "srparasites:incompleteform_medium",
+		value: 1L
+	},
+	{
+		uid: "ba5d5e87",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_host",
+		entity: "srparasites:host",
+		value: 1L
+	},
+	{
+		uid: "a56755f0",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_hostii",
+		entity: "srparasites:hostii",
+		value: 1L
+	},
+	{
+		uid: "bce615e6",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_mes",
+		entity: "srparasites:thrall",
+		value: 1L
+	},
+	{
+		uid: "032431f5",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_lesh",
+		entity: "srparasites:movingflesh",
+		value: 1L
+	}]
+}

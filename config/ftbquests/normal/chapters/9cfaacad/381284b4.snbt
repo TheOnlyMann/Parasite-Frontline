@@ -1,0 +1,19 @@
+{
+	x: 10.0d,
+	y: -6.0d,
+	shape: "diamond",
+	description: "Unlimited Power",
+	text: [
+		"It burns off the toxic fumes in the air, making nether habitable for long time use while near it."
+	],
+	dependencies: [
+		"fd53f17f"
+	],
+	tasks: [{
+		uid: "c37f67a7",
+		type: "item",
+		items: [{
+			item: "timeisup:timer_ward"
+		}]
+	}]
+}

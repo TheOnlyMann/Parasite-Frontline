@@ -1,0 +1,167 @@
+{
+	title: "Machinegun T-Doll",
+	x: -6.0d,
+	y: 17.0d,
+	description: "Dakka dakka",
+	text: [
+		"While reload intensive, their contiouous firepower eases up for any defense areas they are lacking. Take good care of them, commander."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b967d41"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c5413b30",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gr_mg23"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7881961f",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_dp28"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aaad4ee2",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_lewis"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7e5ba1c0",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_pkm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ea425626",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gr_mg4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f88460b3",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_mg34"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cd87d565",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_pkp"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "642872a1",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_lwmmg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "550d7d0a",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_aek999"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "025919e2",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_mg36"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a648ed47",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_negev"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a26a72fb",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_rpd"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "233e9034",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m249saw"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "14fb5969",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gr_mg5"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d0560fdd",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_mg42"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e1f21a51",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m1918"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7bd74e7b",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_kord"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

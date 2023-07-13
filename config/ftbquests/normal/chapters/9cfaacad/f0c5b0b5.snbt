@@ -1,0 +1,20 @@
+{
+	title: "Con..tract?",
+	x: -4.0d,
+	y: 10.0d,
+	description: "Just stick with it",
+	text: [
+		"You can issue a contract to make more T-Dolls in the crafter. ",
+		"This 1 ticket equals 1 new T-Dolls, if you have the resources to make them."
+	],
+	dependencies: [
+		"eaa9fc8f"
+	],
+	tasks: [{
+		uid: "5c16a8d5",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_doll_contract"
+		}]
+	}]
+}

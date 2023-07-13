@@ -1,0 +1,27 @@
+{
+	title: "Nightmare Slain",
+	x: 17.5d,
+	y: -5.5d,
+	shape: "diamond",
+	description: "The night, and the dream, were long...",
+	text: [
+		""
+	],
+	dependencies: [
+		"1f716750"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "0ca41d1a",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_infdragone",
+		entity: "srparasites:sim_dragone",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "6227239e",
+		type: "item",
+		item: "minecraft:dragon_egg"
+	}]
+}

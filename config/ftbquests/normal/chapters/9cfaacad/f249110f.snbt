@@ -1,0 +1,37 @@
+{
+	x: -13.0d,
+	y: -5.0d,
+	description: "probably doesn't smell nice",
+	text: [
+		"Fuel for certain stuff. beat a shallowbreath to death with a vial to get them."
+	],
+	tasks: [{
+		uid: "6b0ca47d",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:dentrothyst_fluid_vial",
+			tag: {
+				Fluid: {
+					FluidName: "shallowbreath",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "80099655",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:dentrothyst_fluid_vial",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "shallowbreath",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

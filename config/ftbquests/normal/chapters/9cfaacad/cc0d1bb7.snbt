@@ -1,0 +1,21 @@
+{
+	x: -8.0d,
+	y: -4.0d,
+	shape: "gear",
+	description: "Old-fangled stuff",
+	text: [
+		"While your big machines from the overworld might not work, with enough ingredients from there, we could build a machine that works in these enviornments."
+	],
+	dependencies: [
+		"dfc17744"
+	],
+	tasks: [{
+		uid: "3bc7ab3e",
+		type: "item",
+		items: [{
+			item: "embers:codex"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

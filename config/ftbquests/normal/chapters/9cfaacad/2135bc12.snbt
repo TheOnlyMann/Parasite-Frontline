@@ -1,0 +1,16 @@
+{
+	title: "Balls of Sap",
+	x: -9.0d,
+	y: -4.0d,
+	description: "Keeps decay at bay",
+	text: [
+		"Sap trees contain a sap that prevents decay."
+	],
+	tasks: [{
+		uid: "e49c3523",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sap_ball"
+		}]
+	}]
+}

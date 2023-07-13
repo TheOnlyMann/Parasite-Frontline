@@ -1,0 +1,75 @@
+{
+	title: "Level 1 Gear",
+	x: 0.0d,
+	y: 18.0d,
+	description: "for your dolls!",
+	text: [
+		"you can make dolls stronger by giving them certain gears. Some of the modifications also fit inside your gun."
+	],
+	dependencies: [
+		"9a2aade7"
+	],
+	tasks: [{
+		uid: "9806d5f6",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bodyarmor"
+		}]
+	},
+	{
+		uid: "a0911820",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bullet_ap"
+		}]
+	},
+	{
+		uid: "689c6d0c",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bullet_hv"
+		}]
+	},
+	{
+		uid: "42b3375a",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bullet_hp"
+		}]
+	},
+	{
+		uid: "e3c96d7b",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bullet_backshot"
+		}]
+	},
+	{
+		uid: "c4a72525",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bullet_srag"
+		}]
+	},
+	{
+		uid: "a04e27b6",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bullet_frag"
+		}]
+	},
+	{
+		uid: "7af46cec",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_frame_m"
+		}]
+	},
+	{
+		uid: "1bc1c9bd",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_frame_x"
+		}]
+	}]
+}

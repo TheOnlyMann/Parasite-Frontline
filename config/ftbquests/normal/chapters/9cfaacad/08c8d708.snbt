@@ -1,0 +1,35 @@
+{
+	title: "Doll Management",
+	x: 0.0d,
+	y: 8.0d,
+	description: "seems cheaty..",
+	text: [
+		"well, good luck. "
+	],
+	dependencies: [
+		"7b967d41"
+	],
+	tasks: [{
+		uid: "e1bfb570",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7f1b7998",
+		type: "item",
+		items: [{
+			item: "minecraft:feather"
+		}]
+	},
+	{
+		uid: "6dfcef7e",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}]
+	}]
+}

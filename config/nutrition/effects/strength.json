@@ -1,0 +1,12 @@
+{
+	"name": "strength",
+	"potion": "minecraft:strength",
+	"amplifier": 0,
+	"minimum": 40,
+	"maximum": 60,
+	"detect": "average",
+	"nutrients": [
+		"protein"
+	],
+	"enabled": true
+}

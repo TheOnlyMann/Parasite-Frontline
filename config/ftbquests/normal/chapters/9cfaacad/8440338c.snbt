@@ -1,0 +1,18 @@
+{
+	x: -16.0d,
+	y: 6.0d,
+	description: "Shiny, but pinkish instead of light blue",
+	text: [
+		"Buried in deep, the Valonite gives you the most durable stuff."
+	],
+	dependencies: [
+		"25630ea5"
+	],
+	tasks: [{
+		uid: "d9322440",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 19"
+		}]
+	}]
+}

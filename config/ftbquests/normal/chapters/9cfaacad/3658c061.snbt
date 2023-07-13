@@ -1,0 +1,43 @@
+{
+	title: "Vehicles",
+	disable_toast: true,
+	x: 6.0d,
+	y: 16.0d,
+	shape: "diamond",
+	description: "they exist",
+	text: [
+		""
+	],
+	dependencies: [
+		"dda394af"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "b3aa36a8",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:ve_hmmwv"
+		}]
+	},
+	{
+		uid: "b336246b",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:ve_rhib"
+		}]
+	},
+	{
+		uid: "57bc819d",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:ve_truck"
+		}]
+	},
+	{
+		uid: "a57ace25",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:ve_bike"
+		}]
+	}]
+}

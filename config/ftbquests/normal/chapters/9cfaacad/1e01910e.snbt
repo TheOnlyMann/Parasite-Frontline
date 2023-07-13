@@ -1,0 +1,91 @@
+{
+	title: "Data Collection: Assimilated Mobs",
+	x: 16.5d,
+	y: -3.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"62941cc5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d1eb7bda",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_infhuman",
+		entity: "srparasites:sim_human",
+		value: 1L
+	},
+	{
+		uid: "4f0d1a50",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_infcow",
+		entity: "srparasites:sim_cow",
+		value: 1L
+	},
+	{
+		uid: "d18a59fc",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_infsheep",
+		entity: "srparasites:sim_sheep",
+		value: 1L
+	},
+	{
+		uid: "cf8abdbb",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_infwolf",
+		entity: "srparasites:sim_wolf",
+		value: 1L
+	},
+	{
+		uid: "dd73644a",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_infpig",
+		entity: "srparasites:sim_pig",
+		value: 1L
+	},
+	{
+		uid: "570ab738",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_infvillager",
+		entity: "srparasites:sim_villager",
+		value: 1L
+	},
+	{
+		uid: "3b4f70e9",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_infplayer",
+		entity: "srparasites:sim_adventurer",
+		value: 1L
+	},
+	{
+		uid: "6deae500",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_infhorse",
+		entity: "srparasites:sim_horse",
+		value: 1L
+	},
+	{
+		uid: "825c3bf0",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_infbear",
+		entity: "srparasites:sim_bear",
+		value: 1L
+	},
+	{
+		uid: "3f9ffe52",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_infenderman",
+		entity: "srparasites:sim_enderman",
+		value: 1L
+	},
+	{
+		uid: "3b6ba745",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_dorpa",
+		entity: "srparasites:sim_bigspider",
+		value: 1L
+	}]
+}

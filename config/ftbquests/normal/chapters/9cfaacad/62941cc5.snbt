@@ -1,0 +1,21 @@
+{
+	title: "First encounter",
+	x: 12.0d,
+	y: 6.0d,
+	description: "what is this?",
+	text: [
+		""
+	],
+	dependencies: [
+		"073e1bf0"
+	],
+	tasks: [{
+		uid: "4f5fef1d",
+		type: "observation",
+		title: "Encounter a Buglin",
+		icon: "srparasites:itemmobspawner_lodo",
+		match_type: "entity_id",
+		match: "srparasites:buglin",
+		timer: 0L
+	}]
+}

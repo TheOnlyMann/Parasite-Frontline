@@ -1,0 +1,19 @@
+{
+	x: 12.0d,
+	y: 2.0d,
+	description: "easy way to find an biome",
+	text: [
+		""
+	],
+	dependencies: [
+		"47d7a5b6"
+	],
+	tasks: [{
+		uid: "3ed82c13",
+		type: "item",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}]
+	}]
+}

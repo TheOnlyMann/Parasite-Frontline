@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: 12.0d,
+	text: [
+		"Dropped from the mecha-enemies strewn throughout occupied bases around the world, it is your job to hunt them down and obtain this technology."
+	],
+	dependencies: [
+		"0c7829a9"
+	],
+	tasks: [{
+		uid: "46888be0",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_l_performance_circuit"
+		}]
+	}]
+}

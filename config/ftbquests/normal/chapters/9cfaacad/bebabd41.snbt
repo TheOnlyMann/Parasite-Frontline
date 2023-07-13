@@ -1,0 +1,23 @@
+{
+	x: -8.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "Old but New",
+	text: [
+		"Your new Crafting Table in this world."
+	],
+	tasks: [{
+		uid: "3396f91f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_workbench"
+		}]
+	},
+	{
+		uid: "e8b17750",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_planks"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 16.0d,
+	y: -6.0d,
+	description: "Clear Skies",
+	text: [
+		"With power, and enough pipes, the pump will suck the pollutants on the upper atmosphere, bringing it down and giving a chance to pass through the filter."
+	],
+	dependencies: [
+		"3a270adf"
+	],
+	tasks: [{
+		uid: "d2cc41f4",
+		type: "item",
+		items: [{
+			item: "pollutantpump:pump"
+		}]
+	},
+	{
+		uid: "061aba0f",
+		type: "item",
+		items: [{
+			item: "pollutantpump:pipe"
+		}]
+	}]
+}

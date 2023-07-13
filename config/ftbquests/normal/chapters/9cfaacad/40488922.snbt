@@ -1,0 +1,21 @@
+{
+	title: "Quite useless..",
+	x: 18.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "Well, it's a nice toy at least",
+	text: [
+		"The End is not accessible, as the End Portal never spawns.. so do keep that in mind."
+	],
+	dependencies: [
+		"073e1bf0"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8d97586a",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}]
+	}]
+}

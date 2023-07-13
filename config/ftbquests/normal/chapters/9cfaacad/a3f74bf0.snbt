@@ -1,0 +1,23 @@
+{
+	title: "Dentrothyst",
+	x: -8.0d,
+	y: 1.0d,
+	description: "Glassy",
+	text: [
+		"These crystalize inside the weedwood trees, used for glasswares and cool decoration."
+	],
+	tasks: [{
+		uid: "e88669ec",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:dentrothyst_shard_green"
+		}]
+	},
+	{
+		uid: "38aa93d3",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:dentrothyst_shard_orange"
+		}]
+	}]
+}

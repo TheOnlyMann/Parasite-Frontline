@@ -1,0 +1,71 @@
+{
+	title: "Ammunition",
+	disable_toast: true,
+	x: 2.0d,
+	y: 10.0d,
+	description: "To shoot with your gun",
+	text: [
+		"Ammunition is needed for you or your T-Dolls to shoot. ",
+		"You probably want to stock it up a bunch for the trials ahead.."
+	],
+	dependencies: [
+		"7b967d41"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "11425374",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_bullet_9"
+		}]
+	},
+	{
+		uid: "13d4d6cd",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_bullet_45"
+		}]
+	},
+	{
+		uid: "4b1e71bd",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_bullet_556"
+		}]
+	},
+	{
+		uid: "f96a7943",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_bullet_762"
+		}]
+	},
+	{
+		uid: "811a1677",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_bullet_12g"
+		}]
+	},
+	{
+		uid: "1405dd0c",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_bullet_57"
+		}]
+	},
+	{
+		uid: "2c949fbe",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_bullet_473kr"
+		}]
+	},
+	{
+		uid: "2336d291",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_bullet_40"
+		}]
+	}]
+}

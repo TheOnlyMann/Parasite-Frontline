@@ -1,0 +1,21 @@
+{
+	title: "Hollow Point Rounds",
+	x: -1.5d,
+	y: 16.0d,
+	shape: "diamond",
+	description: "for pistols.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"faddbe0a"
+	],
+	tasks: [{
+		uid: "7377c340",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bullet_hp3"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -15.5d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "Pocket-fire!",
+	text: [
+		"You can gather up Octaine Ingots and use them on moss piles to start a fire- or bring in some technology that still works, like this lighter."
+	],
+	dependencies: [
+		"940446c9"
+	],
+	tasks: [{
+		uid: "5003ba77",
+		type: "item",
+		items: [{
+			id: "immersiveintelligence:lighter",
+			tag: {
+				Fluid: {
+					FluidName: "ethanol",
+					Amount: 620
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

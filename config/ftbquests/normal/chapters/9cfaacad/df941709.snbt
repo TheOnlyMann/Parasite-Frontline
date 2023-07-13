@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: 18.0d,
+	description: "whack!",
+	text: [
+		"Use this to change the weapon of the former mentioned vehicles."
+	],
+	dependencies: [
+		"48674d63"
+	],
+	tasks: [{
+		uid: "d792b246",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:ve_weaponchange"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Well-Packed",
+	x: -8.0d,
+	y: -2.0d,
+	description: "Ready to be used",
+	text: [
+		"certain foods and items dont rot in the dimension, thankfully. Good thing you brought some of them.."
+	],
+	dependencies: [
+		"099ffaaa"
+	],
+	tasks: [{
+		uid: "bfc1d79f",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_food"
+		}]
+	},
+	{
+		uid: "b4eb1126",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_bandage"
+		}]
+	}]
+}

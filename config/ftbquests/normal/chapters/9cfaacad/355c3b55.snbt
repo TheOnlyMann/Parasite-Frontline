@@ -1,0 +1,18 @@
+{
+	x: -11.0d,
+	y: -2.0d,
+	description: "Drink on demand",
+	text: [
+		"Using the natural ingredients found in betweenlands, you can make a decent drink to quench your thirst. As well as other stuff."
+	],
+	dependencies: [
+		"6d6b3f68"
+	],
+	tasks: [{
+		uid: "3df5f971",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:steeping_pot"
+		}]
+	}]
+}

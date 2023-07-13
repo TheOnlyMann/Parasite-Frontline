@@ -1,0 +1,26 @@
+{
+	title: "Good work, soldier!",
+	x: -3.0d,
+	y: 18.0d,
+	shape: "heart",
+	text: [
+		"Upper Management has decided to give you this mansion-in-a-box to celebrate your work down there. Thank you, and take good care out there."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"818809f2",
+		"ddfd82ba",
+		"dfc95592"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2824830b",
+		type: "checkmark",
+		icon: "hmggirlfront:gk_kryuger"
+	}],
+	rewards: [{
+		uid: "51cdb7dc",
+		type: "item",
+		item: "hmggirlfront:help_base_mansion"
+	}]
+}

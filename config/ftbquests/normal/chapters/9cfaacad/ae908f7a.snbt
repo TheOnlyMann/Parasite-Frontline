@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: 5.5d,
+	shape: "diamond",
+	description: "decoration",
+	text: [
+		"Chiesels are a easy way to change up a pallette of a existing block."
+	],
+	dependencies: [
+		"7a99b128"
+	],
+	tasks: [{
+		uid: "b6068f88",
+		type: "item",
+		items: [{
+			item: "chisel:chisel_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

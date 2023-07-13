@@ -1,0 +1,11 @@
+{
+	x: -11.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "91907f48",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sap_spit"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Sand for the Sand clock",
+	x: 8.0d,
+	y: -4.0d,
+	description: "Time for the Time god",
+	text: [
+		"Using this gives you more time to stay in the nether. Slightly."
+	],
+	dependencies: [
+		"45f42493"
+	],
+	tasks: [{
+		uid: "d6d52069",
+		type: "item",
+		items: [{
+			item: "timeisup:timer_bonus"
+		}]
+	}]
+}

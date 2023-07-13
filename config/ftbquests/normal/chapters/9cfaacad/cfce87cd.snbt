@@ -1,0 +1,19 @@
+{
+	x: 10.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	description: "Packaging stuff",
+	text: [
+		"This machine is needed to get some materials you need, along with the Singularity the machine forms."
+	],
+	dependencies: [
+		"7a99b128"
+	],
+	tasks: [{
+		uid: "60911829",
+		type: "item",
+		items: [{
+			item: "singularities:compressor"
+		}]
+	}]
+}

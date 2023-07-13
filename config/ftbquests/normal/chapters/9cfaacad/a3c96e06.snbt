@@ -1,0 +1,54 @@
+{
+	title: "Middle Gems",
+	x: -14.0d,
+	y: 4.0d,
+	description: "My beauty..",
+	text: [
+		"Found in Swamp beds, these gems are delicate, and thus needs to be washed in the purifier, but potent in resonating with your equipment to make it stronger."
+	],
+	dependencies: [
+		"73f42d28"
+	],
+	tasks: [{
+		uid: "e2c88d42",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aqua_middle_gem_ore"
+		}]
+	},
+	{
+		uid: "634d30fb",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crimson_middle_gem_ore"
+		}]
+	},
+	{
+		uid: "6f741bad",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:green_middle_gem_ore"
+		}]
+	},
+	{
+		uid: "d8315a78",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aqua_middle_gem"
+		}]
+	},
+	{
+		uid: "a2bb662a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crimson_middle_gem"
+		}]
+	},
+	{
+		uid: "9e3bd00e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:green_middle_gem"
+		}]
+	}]
+}

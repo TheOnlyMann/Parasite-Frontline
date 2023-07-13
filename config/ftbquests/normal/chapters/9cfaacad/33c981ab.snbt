@@ -1,0 +1,26 @@
+{
+	x: -11.0d,
+	y: 5.0d,
+	description: "Ore doubling",
+	text: [
+		"When used in Sulfur Furnaces, it can produce more symorite/octine."
+	],
+	dependencies: [
+		"f9c266a2",
+		"3329ba9f"
+	],
+	tasks: [{
+		uid: "34ded78c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 27"
+		}]
+	},
+	{
+		uid: "7d565c3c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:limestone"
+		}]
+	}]
+}

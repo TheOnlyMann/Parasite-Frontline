@@ -1,0 +1,56 @@
+{
+	title: "Data Collection: Preeminent Parasites",
+	x: 16.0d,
+	y: -5.0d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"62941cc5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7e3d77d1",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_lencia",
+		entity: "srparasites:bogle",
+		value: 1L
+	},
+	{
+		uid: "113b49ca",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_vesta",
+		entity: "srparasites:carrier_colony",
+		value: 1L
+	},
+	{
+		uid: "61218691",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_pheon",
+		entity: "srparasites:haunter",
+		value: 1L
+	},
+	{
+		uid: "08f51f1a",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_jinjo",
+		entity: "srparasites:bomber_heavy",
+		value: 1L
+	},
+	{
+		uid: "6ea66f66",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_elvia",
+		entity: "srparasites:wraith",
+		value: 1L
+	},
+	{
+		uid: "95737344",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_pod",
+		entity: "srparasites:succor",
+		value: 1L
+	}]
+}

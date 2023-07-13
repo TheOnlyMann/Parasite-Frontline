@@ -1,0 +1,195 @@
+{
+	title: "Rifle T-Doll",
+	x: -6.0d,
+	y: 18.0d,
+	description: "Precision fire",
+	text: [
+		"Armed with usually high calibre semi-auto(or bolt action) weaponry, they can deter targets even from long ranges to make up for te fact that they are quite fragile on close quarters.",
+		"Take good care of them, commander."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b967d41"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7a8a85f7",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m1903"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "52d52e66",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_svd"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d2c34b4",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gm6"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5b5e94ce",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_fn49"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4ba540f2",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gr_g28"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1c6453c6",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_sks"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "33bf514e",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_type4_j"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8beb4bcf",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m1_garand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cebe1026",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_r93"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b809082e",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m14"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "01624d37",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_wa2000"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "df1e5f2b",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_supersass"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "91cf3032",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_sv98"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bd4fa687",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_falcon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "22e16a1d",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_kar98k"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6c866500",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_vsk94"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a3021ee3",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_ntw20"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "30aa867e",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m200"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3f173024",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_sm1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c2784bcc",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_iws2000"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

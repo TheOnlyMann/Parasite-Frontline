@@ -1,0 +1,20 @@
+{
+	x: 10.0d,
+	y: 5.5d,
+	shape: "diamond",
+	description: "What you have eaten, and what you will eat",
+	text: [
+		"Dying resets the food progress, but you dont have to eat all types of foods.",
+		"Eating a few will grant buffs to your health, up to a certain point- if you die though, you do need to get back up there."
+	],
+	dependencies: [
+		"47d7a5b6"
+	],
+	tasks: [{
+		uid: "8539f33a",
+		type: "item",
+		items: [{
+			item: "solcarrot:food_book"
+		}]
+	}]
+}

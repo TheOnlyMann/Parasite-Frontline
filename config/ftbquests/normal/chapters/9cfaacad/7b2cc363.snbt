@@ -1,0 +1,59 @@
+{
+	title: "Weapon Evolution",
+	x: 15.0d,
+	y: -1.0d,
+	shape: "diamond",
+	description: "WIP- NOT OBTAINABLE",
+	text: [
+		"Welp- it didn't kill you, AND it also evolved to be more efficient on the task given!"
+	],
+	dependencies: [
+		"6ac332a2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "cb8cb4ef",
+		type: "item",
+		items: [{
+			item: "srparasites:weapon_scythe_sentient"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ae19df36",
+		type: "item",
+		items: [{
+			item: "srparasites:weapon_axe_sentient"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ba6d8a7b",
+		type: "item",
+		items: [{
+			item: "srparasites:weapon_sword_sentient"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cf009ba7",
+		type: "item",
+		items: [{
+			item: "srparasites:weapon_cleaver_sentient"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d8c68a77",
+		type: "item",
+		items: [{
+			item: "srparasites:weapon_bow_sentient"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

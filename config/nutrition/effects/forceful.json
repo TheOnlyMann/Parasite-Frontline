@@ -1,0 +1,12 @@
+{
+	"name": "forceful",
+	"potion": "elenaidodge:forceful",
+	"amplifier": 0,
+	"minimum": 40,
+	"maximum": 60,
+	"detect": "average",
+	"nutrients": [
+		"vegetable"
+	],
+	"enabled": true
+}

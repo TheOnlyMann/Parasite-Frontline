@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	shape: "octagon",
+	description: "To guide you",
+	text: [
+		"While daunting, reading the manula does give you an idea what to do next."
+	],
+	dependencies: [
+		"7a99b128"
+	],
+	tasks: [{
+		uid: "1b3b5f15",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:tool",
+			Damage: 3s,
+			tag: {
+				lastSkin: ""
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

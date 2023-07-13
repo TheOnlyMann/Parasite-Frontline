@@ -1,0 +1,185 @@
+{
+  "__GLOBAL__": [],
+  "0": [
+    {
+      "item": "mystgears:witchburn_gatling_gun",
+      "damage": "*"
+    },
+    {
+      "item": "mystgears:mechanical_turret",
+      "damage": "*"
+    },
+    {
+      "item": "mystgears:ember_gatling_gun",
+      "damage": "*"
+    }
+  ],
+  "0,20": [
+    {
+      "item": "thermalinnovation:drill",
+      "damage": "*"
+    },
+    {
+      "item": "thermaldynamics:duct_32",
+      "damage": "*"
+    },
+    {
+      "item": "thermaldynamics:duct_48",
+      "damage": "*"
+    },
+    {
+      "item": "thermaldynamics:retriever",
+      "damage": "*"
+    },
+    {
+      "item": "thermaldynamics:filter",
+      "damage": "*"
+    },
+    {
+      "item": "thermaldynamics:cover",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:cache",
+      "damage": "*"
+    },
+    {
+      "item": "thermaldynamics:duct_0",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:florb",
+      "damage": "*"
+    },
+    {
+      "item": "thermaldynamics:duct_64",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:tank",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:capacitor",
+      "damage": "*"
+    },
+    {
+      "item": "thermalinnovation:saw",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:device",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:satchel",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:morb",
+      "damage": "*"
+    },
+    {
+      "item": "thermalinnovation:quiver",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:dynamo",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:machine",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:reservoir",
+      "damage": "*"
+    },
+    {
+      "item": "thermalinnovation:injector",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:strongbox",
+      "damage": "*"
+    },
+    {
+      "item": "thermalinnovation:magnet",
+      "damage": "*"
+    },
+    {
+      "item": "thermaldynamics:servo",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:augment",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:cell",
+      "damage": "*"
+    },
+    {
+      "item": "thermalexpansion:frame",
+      "damage": "*"
+    },
+    {
+      "item": "thermaldynamics:duct_16",
+      "damage": "*"
+    }
+  ],
+  "20": [
+    {
+      "item": "simpledifficulty:iron_canteen",
+      "damage": "*"
+    },
+    {
+      "item": "simpledifficulty:canteen",
+      "damage": "*"
+    },
+    {
+      "item": "hmggirlfront:idoll_bullet_9",
+      "damage": "*"
+    },
+    {
+      "item": "hmggirlfront:idoll_bullet_45",
+      "damage": "*"
+    },
+    {
+      "item": "hmggirlfront:idoll_bullet_556",
+      "damage": "*"
+    },
+    {
+      "item": "hmggirlfront:idoll_bullet_762",
+      "damage": "*"
+    },
+    {
+      "item": "hmggirlfront:idoll_bullet_12g",
+      "damage": "*"
+    },
+    {
+      "item": "hmggirlfront:idoll_bullet_57",
+      "damage": "*"
+    },
+    {
+      "item": "hmggirlfront:idoll_bullet_40",
+      "damage": "*"
+    },
+    {
+      "item": "immersiveintelligence:metal_decoration",
+      "damage": "4"
+    },
+    {
+      "item": "immersiveengineering:metal_decoration0",
+      "damage": "5"
+    },
+    {
+      "item": "immersiveintelligence:metal_decoration",
+      "damage": "2"
+    },
+    {
+      "item": "immersiveintelligence:metal_decoration",
+      "damage": "6"
+    }
+  ]
+}

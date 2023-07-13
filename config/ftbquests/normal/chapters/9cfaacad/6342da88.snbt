@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: 3.0d,
+	shape: "diamond",
+	description: "seasons come and go",
+	text: [
+		"Depending on the season, it can get hot, or cold, or snowy, and other things as well. "
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"073e1bf0"
+	],
+	tasks: [{
+		uid: "f5489b5b",
+		type: "item",
+		items: [{
+			item: "sereneseasons:season_clock"
+		}]
+	}]
+}

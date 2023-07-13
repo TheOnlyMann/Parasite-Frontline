@@ -1,0 +1,50 @@
+{
+	title: "Carapace Suit",
+	x: 17.0d,
+	y: -1.0d,
+	shape: "diamond",
+	description: "WIP-NOT OBTAINABLE",
+	text: [
+		""
+	],
+	dependencies: [
+		"6ac332a2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "645e8ee6",
+		type: "item",
+		items: [{
+			item: "srparasites:armor_helm_sentient"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8e6f9e2d",
+		type: "item",
+		items: [{
+			item: "srparasites:armor_chest_sentient"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e23e3aaf",
+		type: "item",
+		items: [{
+			item: "srparasites:armor_pants_sentient"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a787bae2",
+		type: "item",
+		items: [{
+			item: "srparasites:armor_boots_sentient"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

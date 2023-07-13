@@ -1,0 +1,20 @@
+{
+	x: 16.0d,
+	y: 6.0d,
+	description: "Final way",
+	text: [
+		"Reverts parasite infested biomes back to a wasteland of mossy rocks.",
+		"Well, unless there is a corroupting Beckon nearby.",
+		"Can be air-dropped from the store."
+	],
+	dependencies: [
+		"0a368244"
+	],
+	tasks: [{
+		uid: "d146d06e",
+		type: "item",
+		items: [{
+			item: "srparasites:biomepurifier"
+		}]
+	}]
+}

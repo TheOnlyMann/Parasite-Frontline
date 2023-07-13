@@ -1,0 +1,20 @@
+{
+	title: "Well baked bread",
+	x: 18.0d,
+	y: 6.0d,
+	shape: "rsquare",
+	description: "Wow, you rock!",
+	text: [
+		"Baking all types of breads is a achievement."
+	],
+	dependencies: [
+		"5f3da091"
+	],
+	optional: true,
+	tasks: [{
+		uid: "172a7dd5",
+		type: "advancement",
+		advancement: "pamsbreadcraft:bred",
+		criterion: ""
+	}]
+}

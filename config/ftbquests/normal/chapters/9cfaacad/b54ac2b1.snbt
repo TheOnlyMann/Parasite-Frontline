@@ -1,0 +1,20 @@
+{
+	title: "Emergency Parts",
+	x: -2.0d,
+	y: 8.0d,
+	description: "How to repair T-Dolls",
+	text: [
+		"If you have the T-Dolls you summoned, get beaten-up, you can emergency-repair them with the parts.",
+		"This, however, only repairs them to 1 HP. They need to heal in other ways, or fed the right thing to keep fighting."
+	],
+	dependencies: [
+		"7b967d41"
+	],
+	tasks: [{
+		uid: "4c115271",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_parts"
+		}]
+	}]
+}

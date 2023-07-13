@@ -1,0 +1,21 @@
+{
+	title: "Spreading infection",
+	x: 16.0d,
+	y: 0.0d,
+	description: "parasites know no bounds",
+	text: [
+		"This just feels wrong.. Prepare for the worst."
+	],
+	dependencies: [
+		"ad77a37c"
+	],
+	tasks: [{
+		uid: "f134c1b2",
+		type: "observation",
+		title: "Encounter Assimilated Enderman",
+		icon: "srparasites:itemmobspawner_infenderman",
+		match_type: "entity_id",
+		match: "srparasites:sim_enderman",
+		timer: 0L
+	}]
+}

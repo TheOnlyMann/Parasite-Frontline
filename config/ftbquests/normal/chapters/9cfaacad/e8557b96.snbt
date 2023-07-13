@@ -1,0 +1,21 @@
+{
+	x: 10.5d,
+	y: 3.5d,
+	shape: "diamond",
+	description: "Read this.",
+	text: [
+		"It can be used to pump liquids in/out from the tanks on the either side of the backpack."
+	],
+	dependencies: [
+		"47d7a5b6"
+	],
+	tasks: [{
+		uid: "b1816959",
+		type: "item",
+		items: [{
+			item: "travelersbackpack:hose"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

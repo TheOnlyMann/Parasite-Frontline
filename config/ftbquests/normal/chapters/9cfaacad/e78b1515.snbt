@@ -1,0 +1,63 @@
+{
+	title: "Data Collection: Adapted Parasites",
+	x: 17.0d,
+	y: -4.0d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"62941cc5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "bc32f70e",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_shycoadapted",
+		entity: "srparasites:ada_longarms",
+		value: 1L
+	},
+	{
+		uid: "9288147a",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_hulladapted",
+		entity: "srparasites:ada_manducater",
+		value: 1L
+	},
+	{
+		uid: "5efb419b",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_noglaadapted",
+		entity: "srparasites:ada_reeker",
+		value: 1L
+	},
+	{
+		uid: "9ba69139",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_emanaadapted",
+		entity: "srparasites:ada_yelloweye",
+		value: 1L
+	},
+	{
+		uid: "6c96dd05",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_canraadapted",
+		entity: "srparasites:ada_summoner",
+		value: 1L
+	},
+	{
+		uid: "04667e92",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_banoadapted",
+		entity: "srparasites:ada_bolster",
+		value: 1L
+	},
+	{
+		uid: "1003eacb",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_ranracadapted",
+		entity: "srparasites:ada_arachnida",
+		value: 1L
+	}]
+}

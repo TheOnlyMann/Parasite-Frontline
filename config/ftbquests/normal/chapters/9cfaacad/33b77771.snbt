@@ -1,0 +1,19 @@
+{
+	x: 14.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Breathable",
+	text: [
+		"Filters are used to clean air of the gas you made. Though by itself, it's bad at it."
+	],
+	dependencies: [
+		"0c482bdc"
+	],
+	tasks: [{
+		uid: "f83e22ab",
+		type: "item",
+		items: [{
+			item: "adpother:iron_filter"
+		}]
+	}]
+}

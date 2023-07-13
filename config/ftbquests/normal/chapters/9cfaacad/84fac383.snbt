@@ -1,0 +1,33 @@
+{
+	x: -4.5d,
+	y: 15.5d,
+	shape: "diamond",
+	description: "Reward included",
+	text: [
+		""
+	],
+	dependencies: [
+		"33f1de32"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c9370515",
+		type: "kill",
+		icon: "hmggirlfront:ibc_boss02",
+		entity: "minecraft:entityibcboss02",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "dfe385a2",
+		type: "item",
+		item: {
+			id: "hmggirlfront:dollgun_ibcboss02sw",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b
+			}
+		}
+	}]
+}

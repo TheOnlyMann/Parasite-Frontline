@@ -1,0 +1,18 @@
+{
+	x: -11.0d,
+	y: 1.0d,
+	description: "Crude but effective",
+	text: [
+		"Roasting the filled bucket in the furnace produces rubber balls."
+	],
+	dependencies: [
+		"4eb5345e"
+	],
+	tasks: [{
+		uid: "17fcd21d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 23"
+		}]
+	}]
+}

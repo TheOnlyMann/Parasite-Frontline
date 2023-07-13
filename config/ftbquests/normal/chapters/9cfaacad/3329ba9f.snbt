@@ -1,0 +1,27 @@
+{
+	title: "Mortar & Pestle",
+	x: -11.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "Grinding..",
+	text: [
+		"used to grind stuff down to a paste, for crafting ingredient purposes."
+	],
+	tasks: [{
+		uid: "631936f1",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mortar"
+		}]
+	},
+	{
+		uid: "5574aadb",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:pestle",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

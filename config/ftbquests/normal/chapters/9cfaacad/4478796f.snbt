@@ -1,0 +1,15 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	shape: "diamond",
+	dependencies: [
+		"6342da88"
+	],
+	tasks: [{
+		uid: "9fe5d29b",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:thermometer"
+		}]
+	}]
+}

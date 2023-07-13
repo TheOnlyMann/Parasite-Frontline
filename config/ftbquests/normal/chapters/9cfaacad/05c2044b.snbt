@@ -1,0 +1,145 @@
+{
+	title: "Prep for the kitchen",
+	x: 9.5d,
+	y: 6.0d,
+	shape: "diamond",
+	description: "enlightenment",
+	text: [
+		"Easy way to prep a meal."
+	],
+	dependencies: [
+		"5f3da091"
+	],
+	tasks: [{
+		uid: "c60016e4",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cooking_table"
+		}]
+	},
+	{
+		uid: "78078c76",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	},
+	{
+		uid: "1a5a138f",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fridge"
+		}]
+	},
+	{
+		uid: "98b77766",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	},
+	{
+		uid: "d94f18ef",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:tool_rack"
+		}]
+	},
+	{
+		uid: "f8b381f0",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:toaster"
+		}]
+	},
+	{
+		uid: "93e78193",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:toaster"
+		}]
+	},
+	{
+		uid: "bd3a6905",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:milk_jar"
+		}]
+	},
+	{
+		uid: "755b3c63",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cow_jar"
+		}]
+	},
+	{
+		uid: "4c4a950e",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:spice_rack"
+		}]
+	},
+	{
+		uid: "608cfaab",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:counter"
+		}]
+	},
+	{
+		uid: "b927cd16",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cabinet"
+		}]
+	},
+	{
+		uid: "bf88ab95",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:corner"
+		}]
+	},
+	{
+		uid: "e2ed9bff",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:kitchen_floor"
+		}]
+	},
+	{
+		uid: "8142a804",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fruit_basket"
+		}]
+	},
+	{
+		uid: "8daac21d",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:heating_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "63a37d2d",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:ice_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "138ed7e1",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:preservation_chamber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	shape: "diamond",
+	dependencies: [
+		"afe49016"
+	],
+	tasks: [{
+		uid: "48badca0",
+		type: "item",
+		items: [{
+			id: "simpledifficulty:iron_canteen",
+			tag: {
+				CanteenType: 3,
+				Doses: 16
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

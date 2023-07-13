@@ -1,0 +1,22 @@
+{
+	title: "Proof of Pledge",
+	x: -4.0d,
+	y: 14.0d,
+	description: "Until death do them part",
+	text: [
+		"on T-Dolls with 50 levels or more(Shift-Right Click to check that), you can marry one of your T-Dolls. ",
+		"As she trusts you, and you trust her, she buffs you and herself while both are around."
+	],
+	dependencies: [
+		"1d21dc63"
+	],
+	tasks: [{
+		uid: "a2b461d4",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_pledge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

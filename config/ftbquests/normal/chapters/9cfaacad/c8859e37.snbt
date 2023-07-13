@@ -1,0 +1,36 @@
+{
+	title: "Shotgun Rounds",
+	x: -1.5d,
+	y: 17.0d,
+	shape: "diamond",
+	description: "for shotguns.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"faddbe0a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "8b4b4b27",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bullet_backshot3"
+		}]
+	},
+	{
+		uid: "81e757aa",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bullet_srag3"
+		}]
+	},
+	{
+		uid: "8eb6c04b",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_bullet_frag3"
+		}]
+	}]
+}

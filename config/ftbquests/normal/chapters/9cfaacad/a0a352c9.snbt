@@ -1,0 +1,19 @@
+{
+	x: 14.0d,
+	y: 6.0d,
+	description: "misleading name",
+	text: [
+		"When placed and activated, it changes the atmospheric composition so that the parasites are less likely to be active. ",
+		"Can be bought in the shop."
+	],
+	dependencies: [
+		"0a368244"
+	],
+	tasks: [{
+		uid: "1405d572",
+		type: "item",
+		items: [{
+			item: "srparasites:evolutionlure 1 3"
+		}]
+	}]
+}

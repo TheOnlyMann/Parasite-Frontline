@@ -1,0 +1,45 @@
+{
+    "pestle_and_mortar": [
+        {
+            "input": {
+                "id": "embers:shard_ember"
+            },
+            "output": {
+                "id": "embers:dust_ember"
+            }
+        }
+    ],
+    "animator": [
+        {
+            "input": {
+                "item": {
+                    "id": "thebetweenlands:items_misc:47"
+                },
+                //Amount of fuel
+                "fuel": 8,
+                //Amount of life crystal
+                "life": 16
+            },
+            "output": {
+                "id": "embers:archaic_brick"
+            }
+        },
+        {
+            "input": {
+                "item": {
+                    "id": "embers:ancient_motive_core"
+                },
+                //Amount of fuel
+                "fuel": 32,
+                //Amount of life crystal
+                "life": 64
+            },
+            "output_entity": {
+                //The entity ID
+                "id": "embers:ancient_golem"
+            },
+            //Specify which entity should be rendered. Optional.
+            "rendered_entity": "embers:ancient_golem"
+        }
+    ]
+}

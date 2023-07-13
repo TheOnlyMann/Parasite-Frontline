@@ -1,0 +1,21 @@
+{
+	title: "Mission Report",
+	x: -2.0d,
+	y: 14.0d,
+	description: "LEVEL UP!",
+	text: [
+		"Your dolls can gain XP by killing things with you. ",
+		"However, you can speed this up by giving this to them.",
+		"With more levels, they have better stats to help you on your journey."
+	],
+	dependencies: [
+		"ebd3c6a9"
+	],
+	tasks: [{
+		uid: "1a576bd3",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_doll_report"
+		}]
+	}]
+}

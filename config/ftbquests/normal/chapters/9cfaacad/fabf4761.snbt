@@ -1,0 +1,59 @@
+{
+	title: "Assist Chips",
+	x: -1.5d,
+	y: 15.0d,
+	shape: "hexagon",
+	description: "Upgrade of the mind",
+	text: [
+		"as the name suggests, it upgrades your dolls to do some other task while doing stuff."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"faddbe0a"
+	],
+	tasks: [{
+		uid: "c734db96",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_class_assalt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5ef4ea42",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_class_medic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1529cdcf",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_class_support"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b463309c",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_class_scout"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1db8e018",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_class_torcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "sluggish",
+	"potion": "elenaidodge:sluggish",
+	"amplifier": 0,
+	"minimum": 80,
+	"maximum": 100,
+	"detect": "any",
+	"cumulative_modifier": 0,
+	"enabled": true
+}

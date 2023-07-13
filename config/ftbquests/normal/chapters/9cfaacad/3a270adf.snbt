@@ -1,0 +1,34 @@
+{
+	title: "Pumps, Vents and Chimneys",
+	x: 14.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "no, not the sussy kind",
+	text: [
+		"These blocks can direct the pollution in a enclosed space to another place, making the room more ventilated."
+	],
+	dependencies: [
+		"33b77771"
+	],
+	tasks: [{
+		uid: "55cb8292",
+		type: "item",
+		items: [{
+			item: "adchimneys:stonebrick 1 2"
+		}]
+	},
+	{
+		uid: "85262955",
+		type: "item",
+		items: [{
+			item: "adchimneys:stonebrick 1 1"
+		}]
+	},
+	{
+		uid: "546e433d",
+		type: "item",
+		items: [{
+			item: "adchimneys:stonebrick"
+		}]
+	}]
+}

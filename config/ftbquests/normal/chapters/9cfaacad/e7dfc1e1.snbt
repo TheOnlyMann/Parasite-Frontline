@@ -1,0 +1,63 @@
+{
+	title: "Data Collection: Pure Parasites",
+	x: 16.5d,
+	y: -4.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"62941cc5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "83ba9310",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_flog",
+		entity: "srparasites:grunt",
+		value: 1L
+	},
+	{
+		uid: "02f2abe9",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_omboo",
+		entity: "srparasites:bomber_light",
+		value: 1L
+	},
+	{
+		uid: "64fd6de5",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_esor",
+		entity: "srparasites:marauder",
+		value: 1L
+	},
+	{
+		uid: "fb15ac5d",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_orch",
+		entity: "srparasites:monarch",
+		value: 1L
+	},
+	{
+		uid: "de4c8e86",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_alafha",
+		entity: "srparasites:overseer",
+		value: 1L
+	},
+	{
+		uid: "1f609e56",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_anged",
+		entity: "srparasites:vigilante",
+		value: 1L
+	},
+	{
+		uid: "c1114d3c",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_ganro",
+		entity: "srparasites:warden",
+		value: 1L
+	}]
+}

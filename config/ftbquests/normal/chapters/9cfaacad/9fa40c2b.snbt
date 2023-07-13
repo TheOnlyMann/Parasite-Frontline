@@ -1,0 +1,19 @@
+{
+	x: -14.0d,
+	y: 5.0d,
+	description: "Coating agency",
+	text: [
+		"This underground material coats your tools as to not get corroded from repeated use over time for a short while.",
+		"Craft with betweenlands tools to apply the coating."
+	],
+	dependencies: [
+		"73f42d28"
+	],
+	tasks: [{
+		uid: "bebc7246",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 39"
+		}]
+	}]
+}

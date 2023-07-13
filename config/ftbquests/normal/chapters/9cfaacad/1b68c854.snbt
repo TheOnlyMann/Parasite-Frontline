@@ -1,0 +1,25 @@
+{
+	title: "Thermalic",
+	x: 10.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "hot hot hot",
+	text: [
+		"The hot nature of the place allows for some tools to be used in these areas. Though, they break as soon as you step out of the dimension."
+	],
+	dependencies: [
+		"45f42493"
+	],
+	tasks: [{
+		uid: "e8db0565",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 40000,
+				Mode: 1
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

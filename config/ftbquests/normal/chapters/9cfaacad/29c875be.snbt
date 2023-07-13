@@ -1,0 +1,25 @@
+{
+	x: -14.0d,
+	y: 6.0d,
+	description: "Iron??",
+	text: [
+		"While not that good as a tool like its bretheren, it's quite useful on making sturdy mechanisms."
+	],
+	dependencies: [
+		"7e611acf"
+	],
+	tasks: [{
+		uid: "4010a37b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_ore"
+		}]
+	},
+	{
+		uid: "a89417f8",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 11"
+		}]
+	}]
+}

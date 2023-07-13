@@ -1,0 +1,32 @@
+{
+	title: "Malfunction",
+	x: -8.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "hey, why isn't this working",
+	text: [
+		"Some stuff gets \"banned\" on certain dimensions. They will return to normal outside of said dimensions though, thankfully."
+	],
+	dependencies: [
+		"6b58e3c4"
+	],
+	tasks: [{
+		uid: "d33a8362",
+		type: "item",
+		title: "Banned Item",
+		icon: "minecraft:barrier",
+		items: [{
+			id: "itemblacklist:blacklisted",
+			tag: {
+				item: {
+					id: "hmggirlfront:idoll_bullet_9",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}]
+}

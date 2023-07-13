@@ -1,0 +1,28 @@
+{
+	x: -12.0d,
+	y: 0.0d,
+	description: "Even my water bottle is malfunctioning?!",
+	text: [
+		"You can't really drink muddy swamp water. you can bring your own water from the other dimension and drink that, but there might be a better way."
+	],
+	tasks: [{
+		uid: "8c9a9a91",
+		type: "item",
+		title: "Tainted Water",
+		items: [{
+			id: "thebetweenlands:tainted_potion",
+			tag: {
+				originalStack: {
+					id: "minecraft:lingering_potion",
+					Count: 1b,
+					Damage: 0s,
+					tag: {
+						Potion: "srparasites:res"
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

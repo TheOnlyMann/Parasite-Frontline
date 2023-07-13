@@ -1,0 +1,35 @@
+{
+	title: "Exclusive Attachments",
+	x: 0.0d,
+	y: 16.0d,
+	description: "privacy, please",
+	text: [
+		"Some things are exclusive to some guns."
+	],
+	dependencies: [
+		"d5f18c31",
+		"9a2aade7",
+		"c2e074cf"
+	],
+	tasks: [{
+		uid: "3370b9a7",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_eot_exps3_416"
+		}]
+	},
+	{
+		uid: "11e89bc8",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_lam_unit"
+		}]
+	},
+	{
+		uid: "0cf51f0f",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_m1903onlyscope"
+		}]
+	}]
+}

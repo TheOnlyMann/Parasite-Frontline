@@ -1,0 +1,32 @@
+{
+	x: -18.0d,
+	y: 6.0d,
+	description: "Living cave",
+	text: [
+		"Found in the deepest parts of the betweenlands inside a stalagmite, these strange crystals can animate stuff with the right dose."
+	],
+	dependencies: [
+		"8440338c"
+	],
+	tasks: [{
+		uid: "f59314fc",
+		type: "item",
+		title: "Life Crystals",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemLifeCrystal"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gemLifeCrystal"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

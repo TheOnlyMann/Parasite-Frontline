@@ -1,0 +1,20 @@
+{
+	title: "It's starting!",
+	x: 12.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "*cough cough cough*",
+	text: [
+		"It is your first step into producing more energy for your plant. Though, do think about the pollution..",
+		"Maybe try to find a more enviornmentally friendly generators?"
+	],
+	dependencies: [
+		"8371307f"
+	],
+	tasks: [{
+		uid: "cee5afe1",
+		type: "advancement",
+		advancement: "immersiveengineering:main/multiblock_dieselgenerator",
+		criterion: ""
+	}]
+}

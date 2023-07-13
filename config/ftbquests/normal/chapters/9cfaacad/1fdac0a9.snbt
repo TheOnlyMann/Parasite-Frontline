@@ -1,0 +1,18 @@
+{
+	x: 16.0d,
+	y: 4.0d,
+	description: "handheld purification device",
+	text: [
+		"Turns infected terrain back to \"normal\". Though, doesnt really work on mobs."
+	],
+	dependencies: [
+		"0a368244"
+	],
+	tasks: [{
+		uid: "b5f7a06f",
+		type: "item",
+		items: [{
+			item: "srparasites:itemthrow"
+		}]
+	}]
+}

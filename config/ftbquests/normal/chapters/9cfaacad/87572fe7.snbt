@@ -1,0 +1,19 @@
+{
+	title: "Natural Light Source",
+	x: -10.0d,
+	y: 2.0d,
+	description: "funny mushroom",
+	text: [
+		"Bulb-Capped Mushrooms, if you don't have enough light sources, will help you lighting up stuff in the area."
+	],
+	dependencies: [
+		"d45f1d78"
+	],
+	tasks: [{
+		uid: "7dcd91f4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bulb_capped_mushroom_item"
+		}]
+	}]
+}

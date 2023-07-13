@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 14.0d,
+	shape: "rsquare",
+	description: "Touchdown!",
+	text: [
+		"With enough resources, you can call down airdrops to get some vehicles."
+	],
+	dependencies: [
+		"a1ac804f"
+	],
+	tasks: [{
+		uid: "7355aba2",
+		type: "item",
+		items: [{
+			item: "delivery:store_tech"
+		}]
+	}]
+}

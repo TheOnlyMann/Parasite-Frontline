@@ -1,0 +1,18 @@
+{
+	title: "Muzzle Attachment",
+	x: 4.0d,
+	y: 16.0d,
+	text: [
+		"shrug"
+	],
+	dependencies: [
+		"c2e074cf"
+	],
+	tasks: [{
+		uid: "4a45afc3",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_suppressor"
+		}]
+	}]
+}

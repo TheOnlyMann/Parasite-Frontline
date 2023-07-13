@@ -1,0 +1,50 @@
+{
+	title: "Living Armor",
+	x: 16.5d,
+	y: -1.5d,
+	shape: "diamond",
+	description: "WIP-NOT OBTAINABLE",
+	text: [
+		""
+	],
+	dependencies: [
+		"6ac332a2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "76636189",
+		type: "item",
+		items: [{
+			item: "srparasites:armor_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d81b7594",
+		type: "item",
+		items: [{
+			item: "srparasites:armor_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "60c1583f",
+		type: "item",
+		items: [{
+			item: "srparasites:armor_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "61956980",
+		type: "item",
+		items: [{
+			item: "srparasites:armor_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 16.0d,
+	y: 2.0d,
+	description: "the power of science",
+	text: [
+		"While only can be bought from the store, it disrupts the parasite's ability to adapt to damage types, resetting their resistances and making adaptation near impossible for the duration of the attack. ",
+		"WARNING: Experimental, Short Range."
+	],
+	dependencies: [
+		"0a368244"
+	],
+	tasks: [{
+		uid: "ae540d44",
+		type: "item",
+		items: [{
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "srparasites:res"
+			}
+		}],
+		ignore_damage: true,
+		only_from_crafting: false
+	}]
+}

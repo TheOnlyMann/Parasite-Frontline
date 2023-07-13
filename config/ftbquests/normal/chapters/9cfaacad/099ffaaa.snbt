@@ -1,0 +1,15 @@
+{
+	title: "Rotten Food",
+	x: -10.0d,
+	y: 0.0d,
+	description: "Damn! My sandwich!",
+	text: [
+		"The dimension seems to make most normal foods loose its marbles."
+	],
+	tasks: [{
+		uid: "31ff0793",
+		type: "advancement",
+		advancement: "thebetweenlands:survivalist/you_are_what_you_eat",
+		criterion: ""
+	}]
+}

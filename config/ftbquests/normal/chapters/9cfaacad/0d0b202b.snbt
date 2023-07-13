@@ -1,0 +1,276 @@
+{
+	title: "Assault Rifle T-Doll",
+	x: -5.0d,
+	y: 18.0d,
+	description: "The standard",
+	text: [
+		"While not as leaned toward certain need in the battlefield, their all-roundness makes a good pick to bring out for a spin.",
+		"Take good care of them, commander."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b967d41"
+	],
+	optional: true,
+	tasks: [{
+		uid: "48a928e2",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m4a1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "df9c7697",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_t97"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8e21c6ec",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_t95"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0768c438",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_g36"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8f013a7f",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_f2000"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0a83b25a",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_l85a1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d778389d",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_galil"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "83d15710",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_416"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b509b746",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gr_g11"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c23c95e6",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_ff_fnc"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a9c9c09e",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gr_g3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6175959c",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_st_ar15"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "70b86861",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_hk33"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f7ff24b4",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_9a91"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d841d20e",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_stg44"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "01539583",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_type64"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3f07b74e",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_am_rfb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "801e7846",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_an94"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "18179459",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_fal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b876433a",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gr_g41"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "31caa707",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_type89_j"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "948f4fcb",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m16a1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "be686c23",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m4sopmod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8ce565b4",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_howa556"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a95d45c8",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_ak12"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6ef13b48",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_arx160"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "04b026c4",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_sig_mcx"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0338ca42",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_a91"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e763d24e",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_ak74m"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

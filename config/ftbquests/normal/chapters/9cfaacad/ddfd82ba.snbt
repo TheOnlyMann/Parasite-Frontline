@@ -1,0 +1,105 @@
+{
+	title: "Normal Enemy Weapons",
+	x: -3.0d,
+	y: 16.0d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9d5bb0b5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7525f5d3",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_ibc07hg",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				am_light_kazu: 1,
+				"am_colorlevel  0": 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "20e21483",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_ibc07sd",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2f976d7d",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_ibc04smg",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				am_light_kazu: 1,
+				"am_colorlevel  0": 0.0f,
+				Items: [],
+				am_sight: 0b,
+				scopezoom: 1.2f,
+				am_light: 0b,
+				am_supu: 0b,
+				am_grip: 0b,
+				am_bullet: 0b,
+				Recoiled: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "73d0810a",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_ibc05ar",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				am_light_kazu: 1,
+				"am_colorlevel  0": 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "707f4833",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_ibc06rf",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				am_light_kazu: 1,
+				"am_colorlevel  0": 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

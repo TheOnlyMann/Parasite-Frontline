@@ -1,0 +1,55 @@
+{
+	title: "Slimy Bone",
+	x: -10.0d,
+	y: 6.0d,
+	description: "Defense up",
+	text: [
+		"Probably a good idea to make tools as well."
+	],
+	dependencies: [
+		"11134ba0"
+	],
+	tasks: [{
+		uid: "376ad01b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bone_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "429781d8",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bone_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "300f553f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bone_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a603e68a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bone_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cbde6676",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 14"
+		}]
+	}]
+}

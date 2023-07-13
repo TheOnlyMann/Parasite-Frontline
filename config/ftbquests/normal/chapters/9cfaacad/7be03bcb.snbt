@@ -1,0 +1,27 @@
+{
+	title: "Yellow Coal",
+	x: -12.0d,
+	y: 2.0d,
+	description: "Is it glowing?",
+	text: [
+		"Looks like this is the coal of this place.."
+	],
+	dependencies: [
+		"87572fe7",
+		"d45f1d78"
+	],
+	tasks: [{
+		uid: "0e6c2d4d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 18"
+		}]
+	},
+	{
+		uid: "4a340d48",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sulfur_torch"
+		}]
+	}]
+}

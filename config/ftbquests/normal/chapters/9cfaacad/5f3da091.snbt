@@ -1,0 +1,22 @@
+{
+	title: "Food to eat",
+	x: 10.5d,
+	y: 6.0d,
+	shape: "diamond",
+	description: "Can't fight with a empty stomach",
+	text: [
+		"In this world, food mechanics have been altered- no longer requires you to 'spend' your hunger to gain health, however it decays in a constant rate.",
+		"Eating lot of different things will result in a healthy body, as well as making you gain temporal buffs."
+	],
+	dependencies: [
+		"2faf996f"
+	],
+	tasks: [{
+		uid: "2ba0041d",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:recipe_book 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

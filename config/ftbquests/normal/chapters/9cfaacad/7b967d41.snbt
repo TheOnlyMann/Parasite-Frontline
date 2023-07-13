@@ -1,0 +1,86 @@
+{
+	title: "Your Gun",
+	disable_toast: true,
+	x: 2.0d,
+	y: 8.0d,
+	description: "And the doll to wield it",
+	text: [
+		"If you have gotten the weapon, congratulations. ",
+		"How to use it is pretty self explanatory-",
+		"What it isn't  is the dolls. ",
+		"if you have the Core, place it down to summon your very-own T-Doll to aid you in battle. ",
+		"Though, she will need to be fed and stocked up to be of a help."
+	],
+	dependencies: [
+		"cfad74b0"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "74d3a78e",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_m1911",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				am_light_kazu: 1,
+				"am_colorlevel  0": 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cfb72579",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_m9",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				am_light_kazu: 1,
+				"am_colorlevel  0": 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "966fc7c2",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_p38",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				am_light_kazu: 1,
+				"am_colorlevel  0": 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "03edac2e",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_g17",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				am_light_kazu: 1,
+				"am_colorlevel  0": 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

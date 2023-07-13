@@ -1,0 +1,27 @@
+{
+	x: -10.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "Looks quite different",
+	text: [
+		"Furnace of the betweenlands, takes sulfur as fuel."
+	],
+	dependencies: [
+		"7be03bcb"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a5480d0e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sulfur_furnace"
+		}]
+	},
+	{
+		uid: "e317f0e6",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sulfur_furnace_dual"
+		}]
+	}]
+}

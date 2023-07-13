@@ -1,0 +1,18 @@
+{
+	x: -10.0d,
+	y: -4.0d,
+	description: "In the mud, clean inside",
+	text: [
+		"These petals have a cleansing effect when consumed, healing your decay."
+	],
+	dependencies: [
+		"2135bc12"
+	],
+	tasks: [{
+		uid: "aaf5da34",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weeping_blue_petal"
+		}]
+	}]
+}

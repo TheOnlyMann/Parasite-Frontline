@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: 3.0d,
+	shape: "diamond",
+	description: "Is it clean?",
+	text: [
+		"Rain water is an alternative source to getting purified water."
+	],
+	dependencies: [
+		"c40c4140"
+	],
+	tasks: [{
+		uid: "32eb3102",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:rain_collector"
+		}]
+	}]
+}

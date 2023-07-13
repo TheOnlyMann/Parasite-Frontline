@@ -1,0 +1,19 @@
+{
+	title: "The Core",
+	x: -6.0d,
+	y: 14.0d,
+	description: "it isn't the heart, but..",
+	text: [
+		"The Cores are important for T-Dolls to function, and you get some of them back when dismantling your T-Dolls. Great!"
+	],
+	dependencies: [
+		"dfd3c4a9"
+	],
+	tasks: [{
+		uid: "2035740a",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_core"
+		}]
+	}]
+}

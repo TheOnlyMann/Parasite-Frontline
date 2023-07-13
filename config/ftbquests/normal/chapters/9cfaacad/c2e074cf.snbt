@@ -1,0 +1,24 @@
+{
+	title: "Ammunition Blueprint",
+	x: 2.0d,
+	y: 14.0d,
+	description: "DollsFrontline Ammunition management",
+	text: [
+		"will now enable you to use Ammunition to create actual ammunitions."
+	],
+	dependencies: [
+		"3baafc17",
+		"758902d6"
+	],
+	tasks: [{
+		uid: "7577d606",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "DollsFrontLine Ammunition Management"
+			}
+		}],
+		ignore_damage: true
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: -16.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "71a0f3cd",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:alembic"
+		}]
+	}]
+}

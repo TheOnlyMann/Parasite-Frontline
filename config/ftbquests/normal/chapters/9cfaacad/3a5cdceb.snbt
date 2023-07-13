@@ -1,0 +1,77 @@
+{
+	title: "Juices",
+	x: 9.5d,
+	y: 3.5d,
+	shape: "diamond",
+	description: "Drink nice",
+	text: [
+		"Better than just water, they'll quench your thirst better.",
+		"Other drinks and foods can also quench your thirst."
+	],
+	dependencies: [
+		"3b323ec3"
+	],
+	tasks: [{
+		uid: "188c429c",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:juice 1 8"
+		}]
+	},
+	{
+		uid: "3a1cf677",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:juice 1 1"
+		}]
+	},
+	{
+		uid: "6a41a4ab",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:juice 1 9"
+		}]
+	},
+	{
+		uid: "0a5e2bf8",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:juice"
+		}]
+	},
+	{
+		uid: "538818bc",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:juice 1 2"
+		}]
+	},
+	{
+		uid: "d39acae7",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:juice 1 3"
+		}]
+	},
+	{
+		uid: "dd957135",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:juice 1 5"
+		}]
+	},
+	{
+		uid: "3240cf8c",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:juice 1 6"
+		}]
+	},
+	{
+		uid: "957da5c7",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:juice 1 7"
+		}]
+	}]
+}

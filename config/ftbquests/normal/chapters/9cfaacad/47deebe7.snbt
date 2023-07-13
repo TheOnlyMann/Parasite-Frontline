@@ -1,0 +1,17 @@
+{
+	x: -14.5d,
+	y: 0.0d,
+	description: "net plus",
+	text: [
+		"can be used to capture geckos, fireflies, and dragonfles."
+	],
+	tasks: [{
+		uid: "197d0334",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:net"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

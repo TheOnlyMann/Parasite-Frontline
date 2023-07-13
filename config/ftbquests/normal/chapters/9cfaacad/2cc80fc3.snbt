@@ -1,0 +1,20 @@
+{
+	title: "T-Doll Fixup",
+	x: -4.0d,
+	y: 8.0d,
+	description: "How to heal them to full",
+	text: [
+		"You can use the repair contract on them to get them back to full HP.",
+		"Just requires.. some materials to make, though."
+	],
+	dependencies: [
+		"b54ac2b1"
+	],
+	tasks: [{
+		uid: "efa6fe55",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_doll_repair"
+		}]
+	}]
+}

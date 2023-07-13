@@ -1,0 +1,27 @@
+{
+	x: 13.5d,
+	y: 1.5d,
+	shape: "diamond",
+	description: "This is a knife.",
+	text: [
+		"While quite unwieldy, the disruption maxtrix on the sword is quite effective at tearing parasites- ignoring their resistance."
+	],
+	dependencies: [
+		"ad77a37c"
+	],
+	tasks: [{
+		uid: "0a41af73",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:dollgun_ibcboss02sw",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

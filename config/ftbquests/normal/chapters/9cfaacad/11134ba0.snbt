@@ -1,0 +1,48 @@
+{
+	title: "Betweenlands Tools",
+	x: -8.0d,
+	y: 6.0d,
+	description: "Native uses",
+	text: [
+		"Outside weapons dont work that well in the betweenlands, thus you need to use it's native materials to do your everyday activities."
+	],
+	dependencies: [
+		"bebabd41"
+	],
+	tasks: [{
+		uid: "f7b2756c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "39419523",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e70b4c5d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3be314f0",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

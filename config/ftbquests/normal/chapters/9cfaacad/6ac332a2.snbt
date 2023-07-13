@@ -1,0 +1,22 @@
+{
+	x: 16.0d,
+	y: -2.0d,
+	shape: "diamond",
+	description: "good news and bad news",
+	text: [
+		"The Bad News is: These things still seem unstoppable.",
+		"The Good News is: We figured out how to use the parasite's property against them. Least the RnD believes that, anyway. Worst thing that could happen is you getting eaten alive, so no problem for us. Just.. take caution."
+	],
+	dependencies: [
+		"c99cbf65"
+	],
+	tasks: [{
+		uid: "dede3ba1",
+		type: "item",
+		items: [{
+			item: "srparasites:living_core"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

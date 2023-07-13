@@ -1,0 +1,11 @@
+{
+	x: -14.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "67541add",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:repeller"
+		}]
+	}]
+}

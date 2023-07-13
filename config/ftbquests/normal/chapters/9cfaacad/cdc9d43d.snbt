@@ -1,0 +1,19 @@
+{
+	title: "Core Dismantler",
+	x: -6.0d,
+	y: 10.0d,
+	description: "dunno if this is more moral",
+	text: [
+		"If you dont wish to summon T-Dolls to dismantle them, you can insert the assembled cores of your T-Dolls to dismantle them without summoning them."
+	],
+	dependencies: [
+		"dfd3c4a9"
+	],
+	tasks: [{
+		uid: "4b38c064",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:bdoll_dismantling"
+		}]
+	}]
+}

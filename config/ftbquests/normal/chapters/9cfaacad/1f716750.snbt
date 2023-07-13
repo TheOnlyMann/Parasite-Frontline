@@ -1,0 +1,35 @@
+{
+	title: "Strange Egg",
+	x: 18.0d,
+	y: -6.0d,
+	shape: "diamond",
+	description: "Reward Included",
+	text: [
+		"See, the management, wants to, uh, check in on the 'egg' you ordered. If you send it back up, safely, hopefully, we'll do some tests and, uh, send it back to you."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"6adb68bd"
+	],
+	optional: true,
+	tasks: [{
+		uid: "40aa001e",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "4337f687",
+		type: "item",
+		item: "minecraft:end_stone",
+		count: 4
+	},
+	{
+		uid: "274760f2",
+		type: "item",
+		item: "srparasites:itemmobspawner_infdragone",
+		only_one: true
+	}]
+}

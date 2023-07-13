@@ -1,0 +1,21 @@
+{
+	title: "Finding the Key",
+	x: 14.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	description: "whoa",
+	text: [
+		"A way to open up a portal to another world. Time to go.",
+		"Structure to obtain this item can be found in an swamp."
+	],
+	dependencies: [
+		"780be37c"
+	],
+	tasks: [{
+		uid: "764b3dfd",
+		type: "advancement",
+		title: "Obtain the Swamp Talisman",
+		advancement: "thebetweenlands:adventurer/give_me_that",
+		criterion: ""
+	}]
+}

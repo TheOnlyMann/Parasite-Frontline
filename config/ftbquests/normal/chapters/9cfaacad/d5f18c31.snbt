@@ -1,0 +1,75 @@
+{
+	title: "Sight Attachments",
+	x: 0.0d,
+	y: 14.0d,
+	description: "See through the Iris",
+	text: [
+		"can be mounted on your gun or T-Dolls by holding x while held/right-clicking on the doll."
+	],
+	dependencies: [
+		"c2e074cf"
+	],
+	tasks: [{
+		uid: "8b5b46b0",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_horo"
+		}]
+	},
+	{
+		uid: "f89204c4",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_dotsight"
+		}]
+	},
+	{
+		uid: "22f8eaa0",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_acog"
+		}]
+	},
+	{
+		uid: "63acc691",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_scope"
+		}]
+	},
+	{
+		uid: "fc8364de",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_micro"
+		}]
+	},
+	{
+		uid: "aed11f32",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_coyote"
+		}]
+	},
+	{
+		uid: "8ef13370",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_coyote"
+		}]
+	},
+	{
+		uid: "05744340",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_kobra"
+		}]
+	},
+	{
+		uid: "9ef06040",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_eot_exps3"
+		}]
+	}]
+}

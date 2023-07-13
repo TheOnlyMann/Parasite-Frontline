@@ -1,0 +1,32 @@
+{
+	title: "Elenai Dodge",
+	x: 18.0d,
+	y: 4.0d,
+	shape: "diamond",
+	description: "Alt to Dodge!",
+	text: [
+		"You have the ability to move quickly in 1 direction by pressing alt whenever you are moving in a certain direction. This will help you dodge some of the incoming attacks."
+	],
+	dependencies: [
+		"47d7a5b6"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b0a4b7d3",
+		type: "item",
+		items: [{
+			item: "elenaidodge:golden_feather"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "4873127d",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "elenaidodge:forceful"
+			}
+		}
+	}]
+}

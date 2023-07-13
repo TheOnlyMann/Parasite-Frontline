@@ -1,0 +1,18 @@
+{
+	x: 6.0d,
+	y: 12.0d,
+	description: "Stacking shouldn't work",
+	text: [
+		"An upgraded circuit, now allows for making some important stuff for you."
+	],
+	dependencies: [
+		"9b2f2a9b"
+	],
+	tasks: [{
+		uid: "a157e776",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:idoll_h_performance_circuit"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 14.0d,
+	y: 4.0d,
+	description: "Mentlegen, the clock is ticking",
+	text: [
+		"The Bloody Clock can tell you what phase the parasites are in. "
+	],
+	dependencies: [
+		"676115f5"
+	],
+	tasks: [{
+		uid: "6b8cbd68",
+		type: "item",
+		items: [{
+			item: "srparasites:evclock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -4.0d,
+	y: 16.0d,
+	shape: "diamond",
+	dependencies: [
+		"87571a53"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5407c6df",
+		type: "kill",
+		icon: "hmggirlfront:ibc_boss07",
+		entity: "minecraft:entityibcboss07",
+		value: 1L
+	}]
+}

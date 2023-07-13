@@ -1,0 +1,26 @@
+{
+	title: "Light Attachment",
+	x: 2.0d,
+	y: 16.0d,
+	description: "shiny",
+	text: [
+		""
+	],
+	dependencies: [
+		"c2e074cf"
+	],
+	tasks: [{
+		uid: "7e21634d",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_an_peq15"
+		}]
+	},
+	{
+		uid: "1fa809b5",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollam_lasersight"
+		}]
+	}]
+}

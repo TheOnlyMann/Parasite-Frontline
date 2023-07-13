@@ -1,0 +1,42 @@
+{
+	title: "Grenade Launcher T-Doll",
+	x: -5.0d,
+	y: 15.0d,
+	description: "Compact package!",
+	text: [
+		"While less powerful, they still carry good firepower and go around solo, making it easier to put them in your squad. ",
+		"Take good care of them, commander."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b967d41"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5e6fa796",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m79"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a1578d4d",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m320"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bfc7fd26",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_xm25"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

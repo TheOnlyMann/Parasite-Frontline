@@ -1,0 +1,195 @@
+{
+	title: "Pistol T-Doll",
+	x: -5.0d,
+	y: 17.0d,
+	description: "Sidekick with a sidearm",
+	text: [
+		"They aren't strong by any means, but their agility makes them quite effective on the battlefield.",
+		"Take good care of them, commander."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b967d41"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b380da81",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m9"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b7938cdd",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_g17"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a4295c98",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m1911"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "acc2b6eb",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_p38"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3e647467",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_stechkin"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7f59e2d2",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_fn57"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e39d4995",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_hk45"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "500177bf",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_astra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cde71cbb",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gr_mk23"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fe3a31d9",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_welrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2b8647bc",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_uspc"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c0290175",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_pm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "07610206",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_tt33"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e4797711",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_ppk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f2864618",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_deserteagle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a9dff167",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_p226"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8c7537fb",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_thunder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "be97381a",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_m1895"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bbc2d88e",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_gsh18"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "971bc4cd",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:core_spp1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

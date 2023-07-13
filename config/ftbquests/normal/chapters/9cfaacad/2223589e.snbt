@@ -1,0 +1,22 @@
+{
+	title: "Wunderwaffe",
+	x: 14.5d,
+	y: 2.5d,
+	shape: "diamond",
+	description: "Kraut Space Magic",
+	text: [
+		"The quite expensive caseless ammunition seems to damage the parasites more. Alongside it's burst fire capability, it might be quite effective, albeit expensive."
+	],
+	dependencies: [
+		"ad77a37c"
+	],
+	tasks: [{
+		uid: "7bff3853",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:dollgun_gr_g11"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

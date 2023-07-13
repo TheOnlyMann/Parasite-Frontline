@@ -1,0 +1,20 @@
+{
+	x: -12.0d,
+	y: 1.0d,
+	description: "They aren't yellow...",
+	text: [
+		"These boots prevent you sinking in the mud, which makes your waling speed into nothing when you stand on them normally. Highly Recommend."
+	],
+	dependencies: [
+		"ed5963f5"
+	],
+	tasks: [{
+		uid: "4068ddf9",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:rubber_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

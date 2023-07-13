@@ -1,0 +1,143 @@
+{
+	title: "Watery Foods",
+	disable_toast: true,
+	x: -10.0d,
+	y: -2.0d,
+	description: "Juicy!",
+	text: [
+		"Some dishes native to betweenlands have enough water in them to last for a while with only the food.",
+		"While not entirely enough, it will help you while you explore the land.",
+		"They are also quite satisfying to your stomach, being two times effective compared to normal food from the overworld."
+	],
+	dependencies: [
+		"099ffaaa",
+		"6d6b3f68"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "3d32c97c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:silt_crab_claw"
+		}]
+	},
+	{
+		uid: "65d28022",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:anadia_meat_raw"
+		}]
+	},
+	{
+		uid: "13d3bddc",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crab_stick"
+		}]
+	},
+	{
+		uid: "53846549",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:middle_fruit"
+		}]
+	},
+	{
+		uid: "6190e027",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:middle_fruit_jello"
+		}]
+	},
+	{
+		uid: "b42c3129",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:frog_legs_raw"
+		}]
+	},
+	{
+		uid: "81a27e21",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:olm_egg_raw"
+		}]
+	},
+	{
+		uid: "285b1146",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:flat_head_mushroom_item"
+		}]
+	},
+	{
+		uid: "47861b78",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mire_scramble"
+		}]
+	},
+	{
+		uid: "3bf0e58f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:snail_flesh_raw"
+		}]
+	},
+	{
+		uid: "00a47252",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:black_hat_mushroom_item"
+		}]
+	},
+	{
+		uid: "7f234fea",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:drinkable_brew"
+		}]
+	},
+	{
+		uid: "cf24c6ec",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:barnacle"
+		}]
+	},
+	{
+		uid: "190c5156",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sludge_jello"
+		}]
+	},
+	{
+		uid: "705edfe0",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:forbidden_fig"
+		}]
+	},
+	{
+		uid: "6c3d1a3c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:pearled_pear"
+		}]
+	},
+	{
+		uid: "fce32af3",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sap_jello"
+		}]
+	},
+	{
+		uid: "587a16c7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:gerts_donut"
+		}]
+	}]
+}

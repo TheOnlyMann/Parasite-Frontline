@@ -1,0 +1,48 @@
+{
+	title: "Griffon Uniform",
+	x: 6.0d,
+	y: 8.0d,
+	description: "Clothes maketh men",
+	text: [
+		"While looking fancy, the hat also allows you to monitor your squad's sign, just as the walkie-talkie do."
+	],
+	dependencies: [
+		"5b51992d"
+	],
+	tasks: [{
+		uid: "99dee257",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:armor_gk_uniform_head"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7686f8ba",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:armor_gk_uniform_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0b60ab8a",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:armor_gk_uniform_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b8a06e65",
+		type: "item",
+		items: [{
+			item: "hmggirlfront:armor_gk_uniform_feet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

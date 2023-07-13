@@ -1,0 +1,70 @@
+{
+	title: "Data Collection: Nexus Parasites",
+	x: 16.0d,
+	y: -4.0d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"62941cc5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "95ec966b",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_venkrol",
+		entity: "srparasites:beckon_si",
+		value: 1L
+	},
+	{
+		uid: "51a82461",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_venkrolsii",
+		entity: "srparasites:beckon_sii",
+		value: 1L
+	},
+	{
+		uid: "e2148503",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_venkrolsiii",
+		entity: "srparasites:beckon_siii",
+		value: 1L
+	},
+	{
+		uid: "b033a822",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_venkrolsiv",
+		entity: "srparasites:beckon_siv",
+		value: 1L
+	},
+	{
+		uid: "7dd40e18",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_dod",
+		entity: "srparasites:dispatcher_si",
+		value: 1L
+	},
+	{
+		uid: "39465dd1",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_dodsii",
+		entity: "srparasites:dispatcher_sii",
+		value: 1L
+	},
+	{
+		uid: "97763ce5",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_dodsiii",
+		entity: "srparasites:dispatcher_siii",
+		value: 1L
+	},
+	{
+		uid: "465e4901",
+		type: "kill",
+		icon: "srparasites:itemmobspawner_dodsiv",
+		entity: "srparasites:dispatcher_siv",
+		value: 1L
+	}]
+}

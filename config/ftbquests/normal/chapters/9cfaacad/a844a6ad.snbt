@@ -1,0 +1,65 @@
+{
+	x: 2.0d,
+	y: 12.0d,
+	description: "throw!",
+	text: [
+		"Greandes, for you to use."
+	],
+	dependencies: [
+		"758902d6"
+	],
+	tasks: [{
+		uid: "580a0e49",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:idoll_grenade_n",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b
+			}
+		}]
+	},
+	{
+		uid: "9513e775",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:idoll_grenade_s",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				Recoiled: 1b
+			}
+		}]
+	},
+	{
+		uid: "d209d281",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:idoll_grenade_f",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b
+			}
+		}]
+	},
+	{
+		uid: "095efa85",
+		type: "item",
+		items: [{
+			id: "hmggirlfront:idoll_grenade_fb",
+			tag: {
+				Reload: 0,
+				Bolt: 0b,
+				Brast: 0b,
+				Brast_cycle: 0b,
+				Recoiled: 1b
+			}
+		}]
+	}]
+}
