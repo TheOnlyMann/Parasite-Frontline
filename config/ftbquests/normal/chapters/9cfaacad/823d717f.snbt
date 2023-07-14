@@ -1,9 +1,12 @@
 {
-	x: -9.0d,
-	y: -5.0d,
+	x: -11.0d,
+	y: 0.0d,
 	description: "egg.",
 	text: [
 		"Mire Snails can be bred with Sap Spit or Sludge Balls. The egg can be picked up and cooked, even."
+	],
+	dependencies: [
+		"099ffaaa"
 	],
 	tasks: [{
 		uid: "f20d46a7",

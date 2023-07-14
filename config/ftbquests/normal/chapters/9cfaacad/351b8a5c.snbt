@@ -1,6 +1,6 @@
 {
-	x: -10.0d,
-	y: -4.0d,
+	x: -9.0d,
+	y: -2.0d,
 	description: "In the mud, clean inside",
 	text: [
 		"These petals have a cleansing effect when consumed, healing your decay."

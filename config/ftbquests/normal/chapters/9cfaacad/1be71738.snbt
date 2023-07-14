@@ -1,6 +1,13 @@
 {
-	x: -11.0d,
-	y: -4.0d,
+	x: -9.0d,
+	y: -1.0d,
+	description: "Wondering if this is mucilage..",
+	text: [
+		"Reverse the effects of decayment happening on your tools. Thank yourself later."
+	],
+	dependencies: [
+		"2135bc12"
+	],
 	tasks: [{
 		uid: "91907f48",
 		type: "item",

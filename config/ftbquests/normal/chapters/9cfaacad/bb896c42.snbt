@@ -1,0 +1,15 @@
+{
+	x: -12.0d,
+	y: -4.0d,
+	dependencies: [
+		"9fdf9acb",
+		"0954f089"
+	],
+	tasks: [{
+		uid: "194f7e01",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:censer"
+		}]
+	}]
+}

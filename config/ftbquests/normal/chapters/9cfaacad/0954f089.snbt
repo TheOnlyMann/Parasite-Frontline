@@ -1,0 +1,28 @@
+{
+	x: -14.0d,
+	y: -2.0d,
+	description: "Absinthe?",
+	text: [
+		"While normal potions rot in betweenlands, Elixirs don't. Shift+R-Click to throw in an emergency."
+	],
+	dependencies: [
+		"865b1aac",
+		"a3f74bf0"
+	],
+	tasks: [{
+		uid: "d20ecd06",
+		type: "item",
+		title: "Elixir",
+		items: [{
+			id: "thebetweenlands:elixir",
+			Damage: 6s,
+			tag: {
+				elixirData: {
+					duration: 15400,
+					strength: 0
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -5,6 +5,9 @@
 	text: [
 		"You can't really drink muddy swamp water. you can bring your own water from the other dimension and drink that, but there might be a better way."
 	],
+	dependencies: [
+		"6b58e3c4"
+	],
 	tasks: [{
 		uid: "8c9a9a91",
 		type: "item",

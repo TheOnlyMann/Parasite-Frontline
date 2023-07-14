@@ -1,6 +1,15 @@
 {
-	x: -14.0d,
-	y: -1.0d,
+	x: -18.0d,
+	y: -4.0d,
+	description: "You shan't Pass",
+	text: [
+		"With good fuel, and a regant to start it up, this contraption emits a forcefield that stops even the most vilest creatures.",
+		"Though.. doesn't seem to work on bosses and ghosts."
+	],
+	dependencies: [
+		"f249110f",
+		"a3f74bf0"
+	],
 	tasks: [{
 		uid: "67541add",
 		type: "item",

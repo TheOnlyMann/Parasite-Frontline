@@ -1,9 +1,12 @@
 {
-	x: -8.0d,
-	y: -5.0d,
+	x: -9.0d,
+	y: 0.0d,
 	description: "No flesh, just bones...",
 	text: [
 		"These deeply unsatisfying meal would cure your apetite if you got bored of any betweenland foods tasting like junk."
+	],
+	dependencies: [
+		"099ffaaa"
 	],
 	tasks: [{
 		uid: "f25c455b",

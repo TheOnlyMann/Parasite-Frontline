@@ -6,6 +6,9 @@
 	text: [
 		"Normal torches burn out in this dimension due to the atmosphere being very hmid. You'll need to find something else to fill your needs.."
 	],
+	dependencies: [
+		"6b58e3c4"
+	],
 	tasks: [{
 		uid: "ec2633bd",
 		type: "advancement",

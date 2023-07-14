@@ -1,12 +1,15 @@
 {
 	title: "Rubber Bucket",
-	x: -10.0d,
-	y: 1.0d,
+	x: -18.0d,
+	y: 0.0d,
 	description: "Extracting Rubber",
 	text: [
 		"Right click the empty buckets on a Rubber Tree, the small one.",
 		"Once it harvests bucketfull, you take them and put them in a furnace.",
 		"Weedwood is 1 time use, Syrmorite is for multiple use."
+	],
+	dependencies: [
+		"6b58e3c4"
 	],
 	tasks: [{
 		uid: "bd43d633",

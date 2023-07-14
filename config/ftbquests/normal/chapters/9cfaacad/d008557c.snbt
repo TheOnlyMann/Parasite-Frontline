@@ -1,8 +1,8 @@
 {
 	title: "Watery Foods",
 	disable_toast: true,
-	x: -10.0d,
-	y: -2.0d,
+	x: -11.0d,
+	y: -1.0d,
 	description: "Juicy!",
 	text: [
 		"Some dishes native to betweenlands have enough water in them to last for a while with only the food.",

@@ -1,6 +1,14 @@
 {
 	x: -16.0d,
-	y: -1.0d,
+	y: -2.0d,
+	description: "Distill it thrice",
+	text: [
+		"Distills random mix of aspects back down to its individual component, or used to combine the right ones into a brew."
+	],
+	dependencies: [
+		"8a5ad314",
+		"a3f74bf0"
+	],
 	tasks: [{
 		uid: "71a0f3cd",
 		type: "item",

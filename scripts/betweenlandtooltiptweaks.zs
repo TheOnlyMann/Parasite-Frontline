@@ -19,8 +19,6 @@ val tooltipMap = {
   <thebetweenlands:skull_mask> : ["While worn, prevents wights from pocessing you."],
   <thebetweenlands:predator_bow> : ["When fully charged, the arrow can re-assigned to enemies near it."],
   <thebetweenlands:voodoo_doll> : ["Damages entities around you."],
-  <thebetweenlands:items_misc:2> : ["Fill in dug up holes with this to produce crop."],
-  <thebetweenlands:items_misc:2> : ["Allows you to spread betweenlands plant when planted on top."],
   <thebetweenlands:middle_fruit_bush_seeds> : ["Can be grown in compost-filled holes."],
   <thebetweenlands:spores> : ["Can be grown in compost-filled holes."],
   <thebetweenlands:bulb_capped_mushroom_item> : ["Can be spread in compost-filled holes."],
@@ -41,7 +39,8 @@ val tooltipMap = {
   <thebetweenlands:aspectrus_seeds> : ["Needs Rubber Plank Fences on top (up to 3) to grow on it."],
   <thebetweenlands:fish_bait> : ["Can be used with slingshot."],
   <thebetweenlands:barnacle_1_2> : ["underwater-growable meat, I guess."],
-  <thebetweenlands:bone_wayfinder> : ["After connecting, Hold R-Click to use.", "Can be placed on Offering Table to be used while deployed.", "Press Shift while near deployed wayfinder to use it."]
+  <thebetweenlands:bone_wayfinder> : ["After connecting, Hold R-Click to use.", "Can be placed on Offering Table to be used while deployed.", "Press Shift while near deployed wayfinder to use it."],
+  <thebetweenlands:items_misc:2> : ["Fill in dug up holes with this to produce crop.","Allows you to spread betweenlands plant when planted on top."]
 } as string[][IItemStack];
 
 for item, data in tooltipMap {
@@ -49,7 +48,6 @@ for item, data in tooltipMap {
     item.addTooltip(ttip);
   }
 }
-
 val shiftTooltipMap = {
   <thebetweenlands:net> : ["Can catch: Firefly, Dragonfly, Gecko, Tiny Sludge Worm and other small creatures.","Can catch small insects n stuff. Might need to sneak up, though."],
   <thebetweenlands:wood_chip_path> : ["Speed 2 while on the path","Looks nice to walk on."],
@@ -61,16 +59,25 @@ val shiftTooltipMap = {
   <thebetweenlands:weedwood_rowboat> : ["A/D to row left/right respectively.","Quite unorthodox.."],
   <thebetweenlands:draeton> : ["Shift Right Click on the boat's middle part to access it's upgrades- Likewise on the burner above to access the fuel.","Looks like it doesn't work on its own.."],
   <thebetweenlands:compost_bin> : ["R-Click to interact. Happy farming!","L-Click to open."],
-  <thebetweenlands:weedwood_rowboat> : ["A/D to row left/right respectively.","Quite unorthodox.."],
-  <thebetweenlands:water_filter> : ["Stagnant Water -> Swamp Water","Allows you to pass liquid down to a container."],
-  <thebetweenlands:water_filter> : ["Swamp Water -> Clean Water","Put Mesh strainer in to filter certain liquids into others."],
-  <thebetweenlands:infuser> : ["Ingredients can be added 6 times.",														"Place on top of a roaring fire to use."],
-  <thebetweenlands:infuser> : ["Herblore are used to brew out the aspects from natural ingredients.",					"Pour in some buckets of swamp water,"],
-  <thebetweenlands:infuser> : ["Aspect Vial are used to brew aspects together into a elixir.",							"Ingredients[SHIFT to know more], then R-Click to stir."],
-  <thebetweenlands:infuser> : ["Infusing is a careful process and needs to be extracted quickly after it's infused.",	"Don't let the brew scald! Stir frequently. If it's been finished, you can extract the infusion with buckets."],
-  <thebetweenlands:infuser> : ["If it burns, a Shallowbreath can spawn.",												"Can have life crystal in it to be automated."]
+  <thebetweenlands:weedwood_rowboat> : ["A/D to row left/right respectively.","Quite unorthodox.."]
 } as string[][IItemStack];
 
 for item, data in shiftTooltipMap {
   item.addShiftTooltip(data[0],data[1]);
+}
+
+
+val filterData = [["Stagnant Water -> Swamp Water","Allows you to pass liquid down to a container."],["Swamp Water -> Clean Water","Put Mesh strainer in to filter certain liquids into others."]] as string[][];
+for ttip2 in filterData{
+  <thebetweenlands:items_misc:2>.addShiftTooltip(ttip2[0],ttip2[1]);
+}
+val infuserData = [
+  ["Ingredients can be added 6 times.",														"Place on top of a roaring fire to use."],
+  ["Herblore are used to brew out the aspects from natural ingredients.",					"Pour in some buckets of swamp water,"],
+  ["Aspect Vial are used to brew aspects together into a elixir.",							"Ingredients[SHIFT to know more], then R-Click to stir."],
+  ["Infusing is a careful process and needs to be extracted quickly after it's infused.",	"Don't let the brew scald! Stir frequently. If it's been finished, you can extract the infusion with buckets."],
+  ["If it burns, a Shallowbreath can spawn.",												"Can have life crystal in it to be automated."]
+] as string[][];
+for ttip3 in infuserData{
+  <thebetweenlands:items_misc:2>.addShiftTooltip(ttip3[0],ttip3[1]);
 }

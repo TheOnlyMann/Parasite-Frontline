@@ -1,10 +1,13 @@
 {
 	title: "Balls of Sap",
-	x: -9.0d,
-	y: -4.0d,
+	x: -8.0d,
+	y: -2.0d,
 	description: "Keeps decay at bay",
 	text: [
 		"Sap trees contain a sap that prevents decay."
+	],
+	dependencies: [
+		"6b58e3c4"
 	],
 	tasks: [{
 		uid: "e49c3523",

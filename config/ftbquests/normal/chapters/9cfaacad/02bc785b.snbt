@@ -1,11 +1,14 @@
 {
-	x: -14.0d,
-	y: 1.0d,
+	x: -8.0d,
+	y: -4.0d,
 	description: "Santa at home:",
 	text: [
 		"With lot of upgrades, It can fly high in the betweenlands.",
 		"Patches need to be patched up, with Lurker Skin Patches.",
 		"Tamed Chiromaw's would work best, but in a pinch, firefly/dragonfly could also work."
+	],
+	dependencies: [
+		"bb896c42"
 	],
 	tasks: [{
 		uid: "f99ba469",

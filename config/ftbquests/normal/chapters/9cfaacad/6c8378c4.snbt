@@ -1,0 +1,14 @@
+{
+	x: -10.0d,
+	y: -4.0d,
+	dependencies: [
+		"099ffaaa"
+	],
+	tasks: [{
+		uid: "e766d6da",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:compost_bin"
+		}]
+	}]
+}

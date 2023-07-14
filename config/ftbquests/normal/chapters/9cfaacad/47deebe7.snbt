@@ -1,9 +1,12 @@
 {
-	x: -14.5d,
+	x: -14.0d,
 	y: 0.0d,
 	description: "net plus",
 	text: [
 		"can be used to capture geckos, fireflies, and dragonfles."
+	],
+	dependencies: [
+		"6b58e3c4"
 	],
 	tasks: [{
 		uid: "197d0334",

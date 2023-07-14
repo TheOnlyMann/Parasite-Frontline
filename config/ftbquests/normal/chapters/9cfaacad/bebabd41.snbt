@@ -6,6 +6,9 @@
 	text: [
 		"Your new Crafting Table in this world."
 	],
+	dependencies: [
+		"d45f1d78"
+	],
 	tasks: [{
 		uid: "3396f91f",
 		type: "item",

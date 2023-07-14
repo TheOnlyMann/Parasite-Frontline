@@ -1,6 +1,13 @@
 {
-	x: -16.0d,
+	x: -18.0d,
 	y: -2.0d,
+	description: "Iron it out",
+	text: [
+		"Put it on top of a fire, or a smoldering peat, to use. Used to brew out aspects from stuff or combine them into 1."
+	],
+	dependencies: [
+		"355c3b55"
+	],
 	tasks: [{
 		uid: "97582b16",
 		type: "item",

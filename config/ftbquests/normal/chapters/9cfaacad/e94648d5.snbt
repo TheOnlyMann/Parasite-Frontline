@@ -1,11 +1,14 @@
 {
 	title: "Moss Bed",
-	x: -9.0d,
+	x: -10.0d,
 	y: 4.0d,
 	shape: "hexagon",
 	description: "Anchorage",
 	text: [
 		"Doesn't look that comfy, but it is good."
+	],
+	dependencies: [
+		"d45f1d78"
 	],
 	tasks: [{
 		uid: "fae07353",

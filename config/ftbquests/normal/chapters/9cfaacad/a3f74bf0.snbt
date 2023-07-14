@@ -1,10 +1,13 @@
 {
 	title: "Dentrothyst",
-	x: -8.0d,
-	y: 1.0d,
+	x: -16.0d,
+	y: -4.0d,
 	description: "Glassy",
 	text: [
 		"These crystalize inside the weedwood trees, used for glasswares and cool decoration."
+	],
+	dependencies: [
+		"6d6b3f68"
 	],
 	tasks: [{
 		uid: "e88669ec",

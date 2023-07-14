@@ -1,9 +1,12 @@
 {
 	x: -10.0d,
-	y: -5.0d,
+	y: -6.0d,
 	description: "gigantic",
 	text: [
 		"This giant toad can be tamed with enough dagonfly wings, and when tamed he can be a good travel companion on both water and ground. In combat, he can ram enemies if you're riding on him."
+	],
+	dependencies: [
+		"e94648d5"
 	],
 	tasks: [{
 		uid: "3cd62d9e",

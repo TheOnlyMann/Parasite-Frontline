@@ -1,12 +1,11 @@
 {
-	x: -11.0d,
+	x: -16.0d,
 	y: 5.0d,
 	description: "Ore doubling",
 	text: [
 		"When used in Sulfur Furnaces, it can produce more symorite/octine."
 	],
 	dependencies: [
-		"f9c266a2",
 		"3329ba9f"
 	],
 	tasks: [{

@@ -1,11 +1,14 @@
 {
 	title: "Mortar & Pestle",
-	x: -11.0d,
+	x: -16.0d,
 	y: 4.0d,
 	shape: "hexagon",
 	description: "Grinding..",
 	text: [
 		"used to grind stuff down to a paste, for crafting ingredient purposes."
+	],
+	dependencies: [
+		"bebabd41"
 	],
 	tasks: [{
 		uid: "631936f1",

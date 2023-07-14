@@ -1,9 +1,12 @@
 {
-	x: -9.0d,
-	y: 1.0d,
+	x: -10.0d,
+	y: -1.0d,
 	description: "Tree of taste",
 	text: [
 		"While quite a bad way to gather up food, they are an option..."
+	],
+	dependencies: [
+		"099ffaaa"
 	],
 	tasks: [{
 		uid: "97343b1b",

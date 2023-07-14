@@ -6,6 +6,9 @@
 	text: [
 		"The dimension seems to make most normal foods loose its marbles."
 	],
+	dependencies: [
+		"6b58e3c4"
+	],
 	tasks: [{
 		uid: "31ff0793",
 		type: "advancement",

@@ -1,0 +1,27 @@
+{
+	x: -11.0d,
+	y: -2.0d,
+	description: "Cleaning",
+	text: [
+		"Way to make drinkable water in betweenlands. Also useful for boilers, i reckon."
+	],
+	dependencies: [
+		"355c3b55"
+	],
+	tasks: [{
+		uid: "8408a0df",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:water_filter"
+		}]
+	},
+	{
+		uid: "78caa361",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:moss_filter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
