@@ -1,6 +1,6 @@
 Simple Description
 
-A quite simple Kitchen Sink Pack about making your survival against the parasites.
+A quite simple Kitchen Sink Pack about making your survival against the parasites, developed for the 1.12.2 Forge version of minecraft.
 Modpack is devised of Overworld(survival zone), Nether(time-gated) and Betweenlands(escape..?)
 
 Ovverworld:

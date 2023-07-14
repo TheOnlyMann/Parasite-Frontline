@@ -4,3 +4,5 @@ Step by Step Process on how to download the modpack
 2. Manually download the External Mod Download's linked Files into the Imported Instance's mod folder.
 3. Launch the Game
 4. Enjoy.
+
+Minecraft Version is 1.12.2
