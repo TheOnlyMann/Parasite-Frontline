@@ -1,0 +1,6 @@
+Step by Step Process on how to download the modpack
+
+1. Import the pack using Curseforge Launcher, or other Launcher.
+2. Manually download the External Mod Download's linked Files into the Imported Instance's mod folder.
+3. Launch the Game
+4. Enjoy.
