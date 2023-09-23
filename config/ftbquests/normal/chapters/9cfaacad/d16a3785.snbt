@@ -8,7 +8,7 @@
 		"Maybe it's an good idea to set up warning signs."
 	],
 	dependencies: [
-		"8371307f"
+		"9344acb7"
 	],
 	optional: true,
 	tasks: [{

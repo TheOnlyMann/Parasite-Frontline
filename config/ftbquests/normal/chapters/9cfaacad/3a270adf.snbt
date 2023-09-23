@@ -1,7 +1,7 @@
 {
 	title: "Pumps, Vents and Chimneys",
 	x: 14.0d,
-	y: -4.0d,
+	y: -6.0d,
 	shape: "rsquare",
 	description: "no, not the sussy kind",
 	text: [

@@ -9,7 +9,8 @@
 	],
 	hide_dependency_lines: true,
 	dependencies: [
-		"0d513f2f"
+		"0d513f2f",
+		"073e1bf0"
 	],
 	optional: true,
 	tasks: [{

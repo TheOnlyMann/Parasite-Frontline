@@ -1,7 +1,7 @@
 {
 	x: 10.0d,
-	y: -2.0d,
-	shape: "octagon",
+	y: 0.0d,
+	shape: "rsquare",
 	description: "To guide you",
 	text: [
 		"While daunting, reading the manula does give you an idea what to do next."

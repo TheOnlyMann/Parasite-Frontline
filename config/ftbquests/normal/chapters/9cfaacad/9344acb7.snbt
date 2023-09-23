@@ -1,14 +1,14 @@
 {
 	title: "We can never dig to deep!",
-	x: 10.0d,
-	y: 0.0d,
+	x: 14.0d,
+	y: -2.0d,
 	shape: "rsquare",
 	description: "With machines to do that for us!",
 	text: [
 		"While limited, this will fill most of your need for your ammo consumption. Hopefully."
 	],
 	dependencies: [
-		"8371307f"
+		"6888fd64"
 	],
 	tasks: [{
 		uid: "cecd098c",

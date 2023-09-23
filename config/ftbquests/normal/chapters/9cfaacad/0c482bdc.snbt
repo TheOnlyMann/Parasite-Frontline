@@ -1,7 +1,7 @@
 {
 	title: "It's starting!",
-	x: 12.0d,
-	y: 0.0d,
+	x: 10.0d,
+	y: -2.0d,
 	shape: "rsquare",
 	description: "*cough cough cough*",
 	text: [

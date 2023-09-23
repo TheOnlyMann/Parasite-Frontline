@@ -1,0 +1,19 @@
+{
+	x: 12.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "Casing Closed",
+	text: [
+		"While simple pistol rounds can be made from copper, all other rounds should be made from brass. Brass is made from zinc and copper."
+	],
+	dependencies: [
+		"8371307f"
+	],
+	tasks: [{
+		uid: "974cdfdb",
+		type: "item",
+		items: [{
+			item: "immersiveintelligence:material_ingot 1 1"
+		}]
+	}]
+}

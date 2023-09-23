@@ -1,13 +1,10 @@
 {
 	x: 14.0d,
-	y: -6.0d,
+	y: -4.0d,
 	description: "check your localized air",
 	text: [
 		"Simple enough, right?",
 		"Use the masks if you want, but it's better to keep the air clean with filters."
-	],
-	dependencies: [
-		"3a270adf"
 	],
 	tasks: [{
 		uid: "862fc38c",
